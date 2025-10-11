@@ -1,20 +1,19 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-//import './i18n'
 
-import Home from './pages/home/'
-import AboutMe from './pages/aboutMe'
+import Home from './pages/home/index'
+import AboutMe from './pages/Test/index'
 
 //import NotFoundPage from './components/notFoundPage.tsx'
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
+import HeaderBar from './components/headerBar.tsx'
 //import Footer from './components/footer.tsx'
-//import HeaderBar from './components/headerBar.tsx'
 
 const Layout = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      {/* <HeaderBar /> */}
+      <HeaderBar />
       <main className="flex-1">
         <Outlet />
       </main>
@@ -29,7 +28,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/home", element: <Home /> },
-      { path: "/about-me", element: <AboutMe /> },
+      { path: "/test", element: <AboutMe /> },
     ],
   },
 ]);
