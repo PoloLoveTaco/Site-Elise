@@ -14,7 +14,7 @@ function HeaderBar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
 
 	return (
-		<header className="bg-orange-300 text-white">
+		<header className="bg-orange-300 text-white sticky top-0 z-50">
 			<div className="w-full px-3">
 				<div className="flex h-18 items-center justify-between">
 

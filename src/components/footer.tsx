@@ -3,7 +3,7 @@ import viteLogo from "../assets/react.svg"
 
 export default function Footer() {
 	return (
-		<footer className="bg-orange-300 text-white mt-12 py-14">
+		<footer className="bg-orange-300 text-white py-14">
 			<div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12">
 
 				{/* LEFT SECTION */}
