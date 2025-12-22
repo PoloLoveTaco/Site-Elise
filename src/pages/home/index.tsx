@@ -3,7 +3,7 @@ import LocationCard from '../../components/locationCard'
 function Home() {
     return (
         <div className='bg-[#FAEEDA] '>
-            <div className='relative w-full h-[calc(100vh-72px)] overflow-hidden' >
+            <div className='relative w-full h-screen overflow-hidden'>
                 {/* Image floutée */}
                 <div className='absolute inset-0 bg-[url(src/assets/ergo-pediatrique.jpeg)] bg-cover bg-center blur-sm'/>
 

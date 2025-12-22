@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import reactLogo from "../assets/react.svg"
 
 const navItems = [
@@ -12,9 +12,17 @@ const navItems = [
 
 function HeaderBar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
+	const [isScrolled, setIsScrolled] = useState(false)
+
+	useEffect(() => {
+		const onScroll = () => setIsScrolled(window.scrollY > 0)
+		onScroll()
+		window.addEventListener("scroll", onScroll, { passive: true })
+		return () => window.removeEventListener("scroll", onScroll)
+	}, [])
 
 	return (
-		<header className="bg-orange-300 text-white sticky top-0 z-50">
+		<header className={`text-white fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${isScrolled ? "bg-orange-300" : "bg-transparent"}`}>
 			<div className="w-full px-3">
 				<div className="flex h-18 items-center justify-between">
 
