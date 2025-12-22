@@ -1,7 +1,18 @@
 function APropos() {
     return (
         <div className='bg-[#FAEEDA]'>
-            <a>A propos</a>
+            <div className='relative w-full h-screen overflow-hidden'>
+                {/* Image floutée */}
+                <div className='absolute inset-0 bg-[url(src/assets/Elise.jpg)] bg-cover bg-center blur-sm'/>
+
+                {/* Overlay sombre (optionnel pour lisibilité) */}
+                <div className='absolute inset-0 bg-black/35'/>
+
+                {/* Contenu NON flou */}
+                <div className="relative z-[1] flex flex-col justify-center items-center h-full text-white font-bold">
+                    <p className='text-6xl'>A propos</p>
+                </div>
+            </div>
         </div>
     )
 }
