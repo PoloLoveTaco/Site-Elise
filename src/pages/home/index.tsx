@@ -1,4 +1,4 @@
-import LocationCard from '../../components/locationCard'
+import LocationCard from '../../components/LocationCard'
 
 function Home() {
     return (
