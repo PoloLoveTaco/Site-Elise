@@ -1,11 +1,14 @@
-import LocationCard from '../../components/locationCard'
+import LocationCard from '../../components/LocationCard'
 
 function Home() {
     return (
         <div className='bg-[#FAEEDA] '>
             <div className='relative w-full h-screen overflow-hidden'>
                 {/* Image floutée */}
-                <div className='absolute inset-0 bg-[url("/baniere-home.jpeg")] bg-cover bg-center blur-sm'/>
+                <div
+                    className='absolute inset-0 bg-cover bg-center blur-sm'
+                    style={{ backgroundImage: 'url(/baniere-home.jpeg)' }}
+                />
 
                 {/* Overlay sombre (optionnel pour lisibilité) */}
                 <div className='absolute inset-0 bg-black/35'/>
