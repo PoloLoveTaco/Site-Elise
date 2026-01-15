@@ -1,4 +1,5 @@
 import LocationCard from '../../components/locationCard'
+import homeBanner from '../../assets/baniere-home.jpeg'
 
 function Home() {
     return (
@@ -7,7 +8,7 @@ function Home() {
                 {/* Image floutée */}
                 <div
                     className='absolute inset-0 bg-cover bg-center blur-sm'
-                    style={{ backgroundImage: 'url(/baniere-home.jpeg)' }}
+                    style={{ backgroundImage: `url(${homeBanner})` }}
                 />
 
                 {/* Overlay sombre (optionnel pour lisibilité) */}

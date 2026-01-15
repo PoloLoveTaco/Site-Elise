@@ -1,3 +1,5 @@
+import interventionsBanner from "../../assets/baniere-les-interventions.webp"
+
 function Interventions() {
     return (
         <div className="bg-[#FAEEDA] text-slate-900">
@@ -5,7 +7,7 @@ function Interventions() {
                 {/* Image floutee */}
                 <div
                     className="absolute inset-0 bg-cover bg-center blur-sm"
-                    style={{ backgroundImage: "url(/baniere-les-interventions.webp)" }}
+                    style={{ backgroundImage: `url(${interventionsBanner})` }}
                 />
 
                 {/* Overlay sombre (optionnel pour lisibilite) */}

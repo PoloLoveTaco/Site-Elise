@@ -1,4 +1,5 @@
 import { useState } from "react"
+import approchesBanner from "../../assets/baniere-les-approches.png"
 
 function Approches() {
     const approaches = [
@@ -53,7 +54,7 @@ function Approches() {
             <div className="relative w-full h-screen overflow-hidden">
                 <div
                     className="absolute inset-0 bg-cover bg-center blur-sm"
-                    style={{ backgroundImage: "url(/baniere-les-approches.png)" }}
+                    style={{ backgroundImage: `url(${approchesBanner})` }}
                 />
                 <div className="absolute inset-0 bg-black/35" />
                 <div className="relative z-[1] flex flex-col text-center justify-center items-center h-full text-white font-bold">

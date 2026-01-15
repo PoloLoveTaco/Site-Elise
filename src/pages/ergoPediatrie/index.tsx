@@ -1,3 +1,5 @@
+import ergoPediatrieBanner from "../../assets/baniere-ergo-pedia.png"
+
 function ErgoPediatrie() {
     return (
         <div className="bg-[#FAEEDA] text-slate-900">
@@ -5,7 +7,7 @@ function ErgoPediatrie() {
                 {/* Image floutée */}
                 <div
                     className='absolute inset-0 bg-cover bg-center blur-sm'
-                    style={{ backgroundImage: 'url(/baniere-ergo-pedia.png)' }}
+                    style={{ backgroundImage: `url(${ergoPediatrieBanner})` }}
                 />
 
                 {/* Overlay sombre (optionnel pour lisibilité) */}
