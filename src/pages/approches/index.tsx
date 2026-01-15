@@ -51,7 +51,7 @@ function Approches() {
     return (
         <div className="bg-[#FAEEDA] text-slate-900">
             <div className="relative w-full h-screen overflow-hidden">
-                <div className="absolute inset-0 bg-[url(src/assets/baniere-les-approches.png)] bg-cover bg-center blur-sm" />
+                <div className="absolute inset-0 bg-[url('/baniere-les-approches.png')] bg-cover bg-center blur-sm" />
                 <div className="absolute inset-0 bg-black/35" />
                 <div className="relative z-[1] flex flex-col text-center justify-center items-center h-full text-white font-bold">
                     <p className="text-6xl">Les approches</p>

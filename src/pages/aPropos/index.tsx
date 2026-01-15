@@ -1,5 +1,3 @@
-import elisePhoto from '../../assets/Elise.jpg'
-
 function APropos() {
     return (
         <div className="bg-[#FAEEDA] text-slate-900">
@@ -31,7 +29,7 @@ function APropos() {
                         </div>
                         <div className="bg-white/80 h-full rounded-2xl shadow-sm p-4 md:p-6 border border-white/60 flex items-center justify-center">
                             <img
-                                src={elisePhoto}
+                                src="/Elise.jpg"
                                 alt="Portrait d'Elise Durand"
                                 className="w-full max-w-sm aspect-[4/5] rounded-2xl object-cover"
                             />

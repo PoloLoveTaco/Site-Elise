@@ -5,7 +5,7 @@ function Home() {
         <div className='bg-[#FAEEDA] '>
             <div className='relative w-full h-screen overflow-hidden'>
                 {/* Image floutée */}
-                <div className='absolute inset-0 bg-[url(src/assets/baniere-home.jpeg)] bg-cover bg-center blur-sm'/>
+                <div className='absolute inset-0 bg-[url("/baniere-home.jpeg")] bg-cover bg-center blur-sm'/>
 
                 {/* Overlay sombre (optionnel pour lisibilité) */}
                 <div className='absolute inset-0 bg-black/35'/>

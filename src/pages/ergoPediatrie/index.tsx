@@ -3,7 +3,7 @@ function ErgoPediatrie() {
         <div className="bg-[#FAEEDA] text-slate-900">
             <div className='relative w-full h-screen overflow-hidden'>
                 {/* Image floutée */}
-                <div className='absolute inset-0 bg-[url(src/assets/baniere-ergo-pedia.png)] bg-cover bg-center blur-sm'/>
+                <div className='absolute inset-0 bg-[url("/baniere-ergo-pedia.png")] bg-cover bg-center blur-sm'/>
 
                 {/* Overlay sombre (optionnel pour lisibilité) */}
                 <div className='absolute inset-0 bg-black/35'/>
