@@ -11,15 +11,15 @@ function Home() {
                 <div className='absolute inset-0 bg-black/35'/>
 
                 {/* Contenu NON flou */}
-                <div className="relative z-[1] flex flex-col justify-center items-center h-full text-white font-bold">
+                <div className="relative z-[1] flex flex-col text-center justify-center items-center h-full text-white font-bold">
                     <p className='text-6xl'>Elise Durand</p>
                     <p className='text-3xl'>Ergothérapeute</p>
                 </div>
             </div>
             <section className='px-6 py-12 max-w-5xl mx-auto'>
-                <h2 className='text-3xl md:text-4xl font-oswald-bold text-black mb-6'>
-                    <span className='block'>Qu’est-ce que</span>
-                    <span className='block'>l’ergothérapie ?</span>
+                
+                <h2 className='text-3xl md:text-4xl font-oswald-bold text-black mb-6 font-bold'>
+                    <span className='block'>Qu’est-ce que l’ergothérapie ?</span>
                 </h2>
                 <ul className='space-y-4 text-lg leading-relaxed text-black/80 list-disc pl-6'>
                     <li>

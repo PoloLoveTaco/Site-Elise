@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+import { StrictMode, useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 
@@ -10,11 +10,17 @@ import APropos from './pages/aPropos/index'
 import Contact from './pages/contact/index'
 import NotFound from './pages/notFound/index'
 
-import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Outlet, useLocation } from 'react-router-dom'
 import HeaderBar from './components/headerBar.tsx'
 import Footer from './components/footer.tsx'
 
 const Layout = () => {
+  const location = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [location.pathname])
+
   return (
     <div className="min-h-screen flex flex-col">
       <HeaderBar />

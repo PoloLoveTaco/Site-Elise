@@ -9,7 +9,7 @@ function ErgoPediatrie() {
                 <div className='absolute inset-0 bg-black/35'/>
 
                 {/* Contenu NON flou */}
-                <div className="relative z-[1] flex flex-col justify-center items-center h-full text-white font-bold">
+                <div className="relative z-[1] flex flex-col text-center justify-center items-center h-full text-white font-bold">
                     <p className='text-6xl'>L’ergothérapie en pédiatrie</p>
                 </div>
             </div>
@@ -17,7 +17,7 @@ function ErgoPediatrie() {
                 <div className="absolute -top-12 -left-16 size-48 rounded-full bg-emerald-200/40 z-0" />
                 <div className="absolute top-20 -right-10 size-40 rounded-full bg-sky-200/40 z-0" />
                 <div className="absolute bottom-0 left-1/3 size-24 rounded-full bg-orange-200/50 z-0" />
-                <div className="relative z-10 max-w-6xl mx-auto px-6 py-16">
+                <div className="relative z-10 max-w-6xl mx-auto px-6 pt-12">
                     <p className="text-lg md:text-xl text-slate-700 mt-4 max-w-3xl">
                         Une approche globale qui aide l’enfant à gagner en autonomie au quotidien, à l’école
                         et dans ses loisirs, en s’appuyant sur des activités significatives et adaptées.
@@ -26,7 +26,7 @@ function ErgoPediatrie() {
             </section>
 
             <section className="px-6 py-12 max-w-6xl mx-auto">
-                <div className="bg-white/80 backdrop-blur rounded-2xl shadow-sm p-6 md:p-10 border border-white/60">
+                <div className="bg-white/80 rounded-2xl shadow-sm p-6 border border-white/60">
                     <p className="text-lg leading-relaxed text-slate-700">
                         « L’ergothérapie est une profession de santé paramédicale visant à prévenir, réduire
                         ou supprimer les situations de handicap des enfants de tout âge. Elle se base sur des
@@ -42,7 +42,7 @@ function ErgoPediatrie() {
                 <div className="absolute -left-10 top-10 size-32 rounded-full bg-emerald-100/60 z-0" />
                 <div className="absolute right-6 bottom-2 size-24 rounded-full bg-sky-100/60 z-0" />
                 <div className="relative z-10">
-                <h2 className="text-2xl md:text-3xl font-oswald-bold text-slate-900 mb-4">
+                <h2 className="text-2xl md:text-3xl font-oswald-bold text-slate-900 mb-4 font-bold">
                     Quand consulter ?
                 </h2>
                 <p className="text-lg leading-relaxed text-slate-700 mb-6 max-w-3xl">
@@ -94,34 +94,41 @@ function ErgoPediatrie() {
 
             <section className="py-12">
                 <div className="max-w-6xl mx-auto px-6">
-                    <h2 className="text-2xl md:text-3xl font-oswald-bold text-slate-900">
+                    <h2 className="text-2xl md:text-3xl font-oswald-bold text-slate-900 font-bold">
                         L’ergothérapie en pédiatrie, pour qui ?
                     </h2>
                 </div>
                 <div className="max-w-6xl mx-auto px-6 py-10">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                        <div className="bg-orange-500 text-white p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                        <div className="bg-orange-100 text-orange-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles spécifiques des apprentissages (dysgraphie, dyslexie...)
                         </div>
-                        <div className="bg-emerald-700 text-white p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+
+                        <div className="bg-emerald-100 text-emerald-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles développementaux de la coordination (TDC)
                         </div>
-                        <div className="bg-sky-500 text-white p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+
+                        <div className="bg-sky-100 text-sky-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles du déficit de l’attention avec ou sans hyperactivité (TDA/H)
                         </div>
-                        <div className="bg-fuchsia-700 text-white p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+
+                        <div className="bg-fuchsia-100 text-fuchsia-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles du Spectre Autistique (TSA)
                         </div>
-                        <div className="bg-green-600 text-white p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+
+                        <div className="bg-green-100 text-green-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles neurologiques (paralysie cérébrale, traumatisme crânien, syndrome cérébelleux...)
                         </div>
-                        <div className="bg-orange-500 text-white p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+
+                        <div className="bg-amber-100 text-amber-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles moteurs
                         </div>
-                        <div className="bg-emerald-700 text-white p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+
+                        <div className="bg-teal-100 text-teal-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Retards de développement
                         </div>
-                        <div className="bg-sky-500 text-white p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+
+                        <div className="bg-indigo-100 text-indigo-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Déficience intellectuelle
                         </div>
                     </div>

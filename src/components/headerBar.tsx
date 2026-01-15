@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
-import reactLogo from "../assets/react.svg"
 
 const navItems = [
 	{ label: "L’ergothérapie en pédiatrie", to: "/ergopediatrie" },
@@ -13,6 +12,7 @@ const navItems = [
 function HeaderBar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
 	const [isScrolled, setIsScrolled] = useState(false)
+	const location = useLocation()
 
 	useEffect(() => {
 		const onScroll = () => setIsScrolled(window.scrollY > 0)
@@ -21,20 +21,18 @@ function HeaderBar() {
 		return () => window.removeEventListener("scroll", onScroll)
 	}, [])
 
+	const forceSolidHeaderContact = location.pathname === "/contact"
+	const forceSolidHeaderPropos = location.pathname === "/apropos"
+
 	return (
-		<header className={`text-white fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${isScrolled ? "bg-orange-300" : "bg-transparent"}`}>
+		<header className={`text-white fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? "bg-orange-300" : "bg-transparent"}`}>
 			<div className="w-full px-3">
 				<div className="flex h-18 items-center justify-between">
 
 					{/* LOGO + TITRE */}
 					<Link to="/home" className="flex items-center gap-3">
-						<img 
-							src={reactLogo} 
-							alt="Logo" 
-							className="w-10 h-10 bg-black rounded-sm object-contain"
-						/>
 						<p className="font-oswald-bold text-3xl text-white">
-							Elise
+							Elise Durand
 						</p>
 					</Link>
 
