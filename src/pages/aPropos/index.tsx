@@ -1,8 +1,9 @@
 import elisePhoto from '../../assets/Elise.jpg'
+import color from '../../assets/styles/color'
 
 function APropos() {
     return (
-        <div className="bg-[#FAEEDA] text-slate-900">
+        <div className={`bg-[${color.primary1}] text-slate-900`}>
             <div className="relative w-full min-h-[calc(100vh-4.5rem)] pt-20 overflow-hidden flex items-center">
                 <div className="absolute -top-12 -left-16 size-48 rounded-full bg-emerald-200/40 z-0" />
                 <div className="absolute top-20 -right-10 size-40 rounded-full bg-sky-200/40 z-0" />
@@ -46,7 +47,7 @@ function APropos() {
                                 suivi des formations dans les domaines suivants :
                             </p>
                             <div className="grid gap-4 md:grid-cols-2">
-                                <div className="bg-[#FAEEDA] rounded-xl border border-[#FAEEDA] p-4 shadow-sm">
+                                <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
                                         Integration sensorielle
                                     </h3>
@@ -56,7 +57,7 @@ function APropos() {
                                         apprentissages ou son comportement.
                                     </p>
                                 </div>
-                                <div className="bg-[#FAEEDA] rounded-xl border border-[#FAEEDA] p-4 shadow-sm">
+                                <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
                                         Troubles de l'alimentation
                                     </h3>
@@ -64,7 +65,7 @@ function APropos() {
                                         Soutien des enfants presentant des selectivites ou des difficultes alimentaires.
                                     </p>
                                 </div>
-                                <div className="bg-[#FAEEDA] rounded-xl border border-[#FAEEDA] p-4 shadow-sm">
+                                <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
                                         Trouble du spectre de l'autisme (TSA)
                                     </h3>
@@ -73,7 +74,7 @@ function APropos() {
                                         des enfants TSA.
                                     </p>
                                 </div>
-                                <div className="bg-[#FAEEDA] rounded-xl border border-[#FAEEDA] p-4 shadow-sm">
+                                <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
                                         Methode CO-OP
                                     </h3>
@@ -83,7 +84,7 @@ function APropos() {
                                         quotidienne.
                                     </p>
                                 </div>
-                                <div className="bg-[#FAEEDA] rounded-xl border border-[#FAEEDA] p-4 shadow-sm">
+                                <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
                                         MCRO
                                     </h3>
@@ -93,7 +94,7 @@ function APropos() {
                                         les progres realises.
                                     </p>
                                 </div>
-                                <div className="bg-[#FAEEDA] rounded-xl border border-[#FAEEDA] p-4 shadow-sm">
+                                <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
                                         Motricite fine
                                     </h3>
@@ -102,7 +103,7 @@ function APropos() {
                                         essentielles pour les gestes precis du quotidien et de l'ecole.
                                     </p>
                                 </div>
-                                <div className="bg-[#FAEEDA] rounded-xl border border-[#FAEEDA] p-4 shadow-sm">
+                                <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
                                         Developpement de l'enfant (0 a 6 ans)
                                     </h3>
@@ -112,7 +113,7 @@ function APropos() {
                                         difficultes et d'adapter les interventions.
                                     </p>
                                 </div>
-                                <div className="bg-[#FAEEDA] rounded-xl border border-[#FAEEDA] p-4 shadow-sm">
+                                <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
                                         Reflexes archaiques
                                     </h3>
@@ -122,7 +123,7 @@ function APropos() {
                                         l'equilibre et l'apprentissage, et adapter les interventions.
                                     </p>
                                 </div>
-                                <div className="bg-[#FAEEDA] rounded-xl border border-[#FAEEDA] p-4 shadow-sm md:col-span-2">
+                                <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className="rounded-xl border p-4 shadow-sm md:col-span-2">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
                                         Le trouble du calcul
                                     </h3>

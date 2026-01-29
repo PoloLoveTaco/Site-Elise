@@ -1,9 +1,10 @@
 import LocationCard from '../../components/locationCard'
 import homeBanner from '../../assets/baniere-home.jpeg'
+import color from '../../assets/styles/color'
 
 function Home() {
     return (
-        <div className='bg-[#FAEEDA] '>
+        <div className={`bg-[${color.primary1}]`}>
             <div className='relative w-full h-screen overflow-hidden'>
                 {/* Image floutée */}
                 <div
@@ -21,7 +22,6 @@ function Home() {
                 </div>
             </div>
             <section className='px-6 py-12 max-w-5xl mx-auto'>
-                
                 <h2 className='text-3xl md:text-4xl font-oswald-bold text-black mb-6 font-bold'>
                     <span className='block'>Qu’est-ce que l’ergothérapie ?</span>
                 </h2>

@@ -1,5 +1,6 @@
 import { useState } from "react"
 import approchesBanner from "../../assets/baniere-les-approches.png"
+import color from "../../assets/styles/color"
 
 function Approches() {
     const approaches = [
@@ -50,7 +51,7 @@ function Approches() {
     const selected = approaches.find((item) => item.id === selectedId) ?? approaches[0]
 
     return (
-        <div className="bg-[#FAEEDA] text-slate-900">
+        <div className={`bg-[${color.primary1}] text-slate-900`}>
             <div className="relative w-full h-screen overflow-hidden">
                 <div
                     className="absolute inset-0 bg-cover bg-center blur-sm"
@@ -62,7 +63,7 @@ function Approches() {
                 </div>
             </div>
 
-            <section className="relative overflow-hidden bg-gradient-to-b from-[#F7E9D6] to-[#FAEEDA]">
+            <section className={`relative overflow-hidden bg-[${color.primary1}]`}>
                 <div className="absolute -top-12 -left-16 size-48 rounded-full bg-emerald-200/40 z-0" />
                 <div className="absolute top-20 -right-10 size-40 rounded-full bg-sky-200/40 z-0" />
                 <div className="absolute bottom-0 left-1/3 size-24 rounded-full bg-orange-200/50 z-0" />

@@ -1,6 +1,8 @@
+import color from "../assets/styles/color";
+
 function LocationCard() {
     return (
-        <div className="bg-orange-200 flex justify-center py-14 px-4">
+        <div className={`bg-[${color.primary1}] flex justify-center py-14 px-4`}>
             <div className="max-w-6xl w-full bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row">
 
                 {/* MAP AREA / Left */}

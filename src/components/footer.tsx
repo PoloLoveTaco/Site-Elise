@@ -1,6 +1,9 @@
+import color from '../assets/styles/color';
+
 export default function Footer() {
 	return (
-		<footer className="bg-orange-300 text-white py-14">
+		// <footer className={`bg-[${color.primary1}] text-[${color.primary2}] py-14`}>
+		<footer style={{ borderColor: color.secondaryG1}} className={`bg-[${color.primary1}] text-[${color.primary2}] py-14 border-t-1`}>
 			<div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12">
 
 				{/* LEFT SECTION */}

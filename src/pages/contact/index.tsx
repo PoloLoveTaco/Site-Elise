@@ -1,6 +1,8 @@
+import color from "../../assets/styles/color"
+
 function Contact() {
     return (
-        <div className="bg-[#FAEEDA] text-slate-900">
+        <div className={`bg-[${color.primary1}] text-slate-900`}>
             <div className="relative w-full min-h-[calc(100vh-4.5rem)] pt-20 overflow-hidden flex items-center">
                 <div className="absolute -top-12 -left-16 size-48 rounded-full bg-emerald-200/40 z-0" />
                 <div className="absolute top-20 -right-10 size-40 rounded-full bg-sky-200/40 z-0" />

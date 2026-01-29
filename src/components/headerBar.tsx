@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
+import color from '../assets/styles/color';
 
 const navItems = [
 	{ label: "L’ergothérapie en pédiatrie", to: "/ergopediatrie" },
@@ -21,17 +22,23 @@ function HeaderBar() {
 		return () => window.removeEventListener("scroll", onScroll)
 	}, [])
 
-	const forceSolidHeaderContact = location.pathname === "/contact"
-	const forceSolidHeaderPropos = location.pathname === "/apropos"
+	const forceSolidHeaderContact  = location.pathname === "/contact"
+	const forceSolidHeaderPropos   = location.pathname === "/apropos"
+
+	const bgColor   = isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? color.primary1 : "transparent";
+	const textColor = isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? color.primary2 : color.secondaryW1;
 
 	return (
-		<header className={`text-white fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? "bg-orange-300" : "bg-transparent"}`}>
+		<header
+			style={{ backgroundColor: bgColor, color: textColor }}
+			className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300`}
+		>
 			<div className="w-full px-3">
 				<div className="flex h-18 items-center justify-between">
 
-					{/* LOGO + TITRE */}
+					{/* TITRE */}
 					<Link to="/home" className="flex items-center gap-3">
-						<p className="font-oswald-bold text-3xl text-white">
+						<p className={`text-[${textColor}] font-oswald-bold text-3xl`}>
 							Elise Durand
 						</p>
 					</Link>

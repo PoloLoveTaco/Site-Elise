@@ -1,8 +1,9 @@
 import interventionsBanner from "../../assets/baniere-les-interventions.webp"
+import color from "../../assets/styles/color"
 
 function Interventions() {
     return (
-        <div className="bg-[#FAEEDA] text-slate-900">
+        <div className={`bg-[${color.primary1}] text-slate-900`}>
             <div className="relative w-full h-screen overflow-hidden">
                 {/* Image floutee */}
                 <div
@@ -19,7 +20,7 @@ function Interventions() {
                 </div>
             </div>
 
-            <section className="relative overflow-hidden bg-gradient-to-b from-[#F7E9D6] to-[#FAEEDA]">
+            <section className={`relative overflow-hidden bg-[${color.primary1}]`}>
                 <div className="absolute -top-12 -left-16 size-48 rounded-full bg-emerald-200/40 z-0" />
                 <div className="absolute top-10 -right-10 size-25 rounded-full bg-sky-200/40 z-0" />
                 <div className="absolute bottom-0 left-1/3 size-24 rounded-full bg-orange-200/50 z-0" />
