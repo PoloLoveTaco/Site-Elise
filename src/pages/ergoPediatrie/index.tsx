@@ -3,7 +3,7 @@ import color from "../../assets/styles/color"
 
 function ErgoPediatrie() {
     return (
-        <div className={`bg-[${color.primary1}] text-slate-900`}>
+        <div className={`text-slate-900`}>
             <div className='relative w-full h-screen overflow-hidden'>
                 {/* Image floutée */}
                 <div
@@ -23,12 +23,6 @@ function ErgoPediatrie() {
                 <div className="absolute -top-12 -left-16 size-48 rounded-full bg-emerald-200/40 z-0" />
                 <div className="absolute top-20 -right-10 size-40 rounded-full bg-sky-200/40 z-0" />
                 <div className="absolute bottom-0 left-1/3 size-24 rounded-full bg-orange-200/50 z-0" />
-                <div className="relative z-10 max-w-6xl mx-auto px-6 pt-12">
-                    <p className="text-lg md:text-xl text-slate-700 mt-4 max-w-3xl">
-                        Une approche globale qui aide l’enfant à gagner en autonomie au quotidien, à l’école
-                        et dans ses loisirs, en s’appuyant sur des activités significatives et adaptées.
-                    </p>
-                </div>
             </section>
 
             <section className="px-6 py-12 max-w-6xl mx-auto">

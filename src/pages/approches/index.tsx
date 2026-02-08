@@ -51,7 +51,7 @@ function Approches() {
     const selected = approaches.find((item) => item.id === selectedId) ?? approaches[0]
 
     return (
-        <div className={`bg-[${color.primary1}] text-slate-900`}>
+        <div className={`text-slate-900`}>
             <div className="relative w-full h-screen overflow-hidden">
                 <div
                     className="absolute inset-0 bg-cover bg-center blur-sm"
@@ -91,9 +91,6 @@ function Approches() {
                                 >
                                     <p className="text-sm font-oswald-bold uppercase tracking-[0.10em] font-bold">
                                         {item.title}
-                                    </p>
-                                    <p className={`mt-2 ${isSelected ? "text-white/90" : "text-slate-700"}`}>
-                                        {item.summary}
                                     </p>
                                 </button>
                             )

@@ -3,7 +3,7 @@ import color from "../../assets/styles/color"
 
 function Interventions() {
     return (
-        <div className={`bg-[${color.primary1}] text-slate-900`}>
+        <div className={`text-slate-900`}>
             <div className="relative w-full h-screen overflow-hidden">
                 {/* Image floutee */}
                 <div

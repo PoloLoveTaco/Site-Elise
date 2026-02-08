@@ -39,7 +39,7 @@ function HeaderBar() {
 					{/* TITRE */}
 					<Link to="/home" className="flex items-center gap-3">
 						<p className={`text-[${textColor}] font-oswald-bold text-3xl`}>
-							Elise Durand
+							Elise Durand Ergothérapeute
 						</p>
 					</Link>
 
