@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import color from '../assets/styles/color';
 
 const navItems = [
+	{ label: "Acceuil", to: "/home" },
 	{ label: "L’ergothérapie en pédiatrie", to: "/ergopediatrie" },
 	{ label: "Les interventions", to: "/interventions" },
 	{ label: "Les approches", to: "/approches" },
@@ -22,8 +23,8 @@ function HeaderBar() {
 		return () => window.removeEventListener("scroll", onScroll)
 	}, [])
 
-	const forceSolidHeaderContact  = location.pathname === "/contact"
-	const forceSolidHeaderPropos   = location.pathname === "/apropos"
+	const forceSolidHeaderContact = location.pathname === "/contact"
+	const forceSolidHeaderPropos  = location.pathname === "/apropos"
 
 	const bgColor   = isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? color.primary1 : "transparent";
 	const textColor = isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? color.primary2 : color.primary1;
@@ -50,7 +51,7 @@ function HeaderBar() {
 							{navItems.map((item) => (
 								<li key={item.label}>
 									<Link to={item.to}>
-										<p className="font-oswald text-lg lg:text-xl py-2 px-3">
+										<p className={`font-oswald text-lg lg:text-xl py-2 px-3 ${location.pathname === item.to ? "text-sky-200" : ""}`}>
 											{item.label}
 										</p>
 									</Link>

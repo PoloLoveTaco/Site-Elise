@@ -21,7 +21,7 @@ function Home() {
                 {/* Contenu NON flou */}
                 <div className="relative z-[1] flex flex-col text-center justify-center items-center h-full text-white font-bold">
                     <p className='text-6xl'>Cabinet d’ergothérapie à La Roche-sur-Yon</p>
-                    <p className='text-3xl'>spécialisé en ergothérapie</p>
+                    <p className='text-3xl'>spécialisé en pédiatrie</p>
                 </div>
             </div>
             <section className='px-6 py-12 max-w-5xl mx-auto'>
