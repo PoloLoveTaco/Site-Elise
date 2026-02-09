@@ -1,5 +1,9 @@
 import LocationCard from '../../components/locationCard'
-import homeBanner from '../../assets/baniere-home.jpeg'
+import homeBanner from '../../assets/bureau_ext.png'
+
+import bureau1 from '../../assets/bureau_1.jpg'
+import bureau2 from '../../assets/bureau_2.jpg'
+import bureau3 from '../../assets/bureau_3.jpg'
 
 function Home() {
     return (
@@ -45,6 +49,26 @@ function Home() {
                 <h2 className='text-3xl md:text-4xl font-oswald-bold text-black mb-6 font-bold'>
                     <span className='block'>Le cabinet</span>
                 </h2>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                    <div className="overflow-hidden rounded-2xl shadow-md">
+                        <img
+                            src={bureau1}
+                            className="h-full w-full object-cover"
+                        />
+                    </div>
+                    <div className="overflow-hidden rounded-2xl shadow-md">
+                        <img
+                            src={bureau2}
+                            className="h-full w-full object-cover"
+                        />
+                    </div>
+                    <div className="overflow-hidden rounded-2xl shadow-md">
+                        <img
+                            src={bureau3}
+                            className="h-full w-full object-cover"
+                        />
+                    </div>
+                </div>
                 <LocationCard />
             </section>
         </div>
