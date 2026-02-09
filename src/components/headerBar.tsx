@@ -26,7 +26,7 @@ function HeaderBar() {
 	const forceSolidHeaderPropos   = location.pathname === "/apropos"
 
 	const bgColor   = isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? color.primary1 : "transparent";
-	const textColor = isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? color.primary2 : color.secondaryW1;
+	const textColor = isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? color.primary2 : color.primary1;
 
 	return (
 		<header

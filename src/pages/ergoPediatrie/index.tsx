@@ -26,7 +26,7 @@ function ErgoPediatrie() {
             </section>
 
             <section className="px-6 py-12 max-w-6xl mx-auto">
-                <div className="bg-white/80 rounded-2xl shadow-sm p-6 border border-white/60">
+                <div className="rounded-2xl shadow-sm p-6 border border-white/60" style={{ backgroundColor: color.secondaireO1}}>
                     <p className="text-lg leading-relaxed text-slate-700">
                         « L’ergothérapie est une profession de santé paramédicale visant à prévenir, réduire
                         ou supprimer les situations de handicap des enfants de tout âge. Elle se base sur des
@@ -51,7 +51,7 @@ function ErgoPediatrie() {
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-white/60">
+                    <div className="rounded-2xl p-6 shadow-sm border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
                         <h3 className="text-xl font-oswald-bold text-slate-900 mb-3">À la maison</h3>
                         <ul className="list-disc pl-5 space-y-2 text-slate-700">
                             <li>Difficultés lors de l’habillage (lacets, boutons de vêtements…)</li>
@@ -63,7 +63,7 @@ function ErgoPediatrie() {
                         </ul>
                     </div>
 
-                    <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-white/60">
+                    <div className="rounded-2xl p-6 shadow-sm border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
                         <h3 className="text-xl font-oswald-bold text-slate-900 mb-3">À l’école</h3>
                         <ul className="list-disc pl-5 space-y-2 text-slate-700">
                             <li>Difficultés lors de la tâche graphique (reproduire des lettres ou des formes etc...)</li>
@@ -75,7 +75,7 @@ function ErgoPediatrie() {
                         </ul>
                     </div>
 
-                    <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-white/60">
+                    <div className="rounded-2xl p-6 shadow-sm border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
                         <h3 className="text-xl font-oswald-bold text-slate-900 mb-3">Sensoriel</h3>
                         <ul className="list-disc pl-5 space-y-2 text-slate-700">
                             <li>Hypo ou hypersensibilité dans un (ou plusieurs) champ(s) sensoriel(s)</li>

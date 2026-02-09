@@ -17,7 +17,7 @@ function LocationCard() {
                 </div>
 
                 {/* TEXT AREA / Right */}
-                <div className="bg-gray-200 p-10 md:w-1/2 text-gray-900 flex flex-col justify-center">
+                <div className="bg-gray-200 p-10 md:w-1/2 text-gray-900 flex flex-col justify-center" style={{ backgroundColor: color.secondaireO1}}>
                     <h2 className="text-2xl font-bold mb-4 leading-tight">
                         Maison de santé
                         <br />

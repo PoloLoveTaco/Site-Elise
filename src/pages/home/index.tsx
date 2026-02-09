@@ -1,5 +1,5 @@
 import LocationCard from '../../components/locationCard'
-import homeBanner from '../../assets/bureau_ext.png'
+import homeBanner from '../../assets/baniere-home.jpeg'
 
 import bureau1 from '../../assets/bureau_1.jpg'
 import bureau2 from '../../assets/bureau_2.jpg'

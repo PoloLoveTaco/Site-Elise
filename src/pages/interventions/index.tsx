@@ -40,7 +40,7 @@ function Interventions() {
             </section>
 
             <section className="px-6 py-6 max-w-6xl mx-auto">
-                <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-white/60">
+                <div className="rounded-2xl p-6 shadow-sm border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
                     <h2 className="text-2xl font-oswald-bold text-slate-900 mb-3">
                         L’ergothérapeute observe et analyse
                     </h2>
@@ -67,7 +67,7 @@ function Interventions() {
             </section>
 
             <section className="px-6 py-6 max-w-6xl mx-auto">
-                <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-white/60">
+                <div className="rounded-2xl p-6 shadow-sm border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
                     <h2 className="text-2xl font-oswald-bold text-slate-900 mb-3">
                         Le bilan peut avoir plusieurs objectifs
                     </h2>
@@ -108,7 +108,7 @@ function Interventions() {
                         La durée de l’accompagnement varie selon les besoins de l’enfant : il peut s’agir de
                         quelques séances ciblées ou d’un suivi plus régulier, par exemple sur une année scolaire.
                     </p>
-                    <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-white/60 mt-6">
+                    <div className="rounded-2xl p-6 shadow-sm border mt-6" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
                         <h2 className="text-2xl font-oswald-bold text-slate-900 mb-3">
                             Chaque séance est personnalisée et peut avoir plusieurs objectifs :
                         </h2>

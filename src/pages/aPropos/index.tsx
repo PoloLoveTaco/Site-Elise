@@ -10,7 +10,7 @@ function APropos() {
                 <div className="absolute bottom-0 left-1/3 size-24 rounded-full bg-orange-200/50 z-0" />
                 <div className="relative z-10 w-full max-w-6xl mx-auto px-6 py-16">
                     <div className="grid items-center gap-8 md:grid-cols-[1.2fr_0.8fr]">
-                        <div className="bg-white/80 h-full rounded-2xl shadow-sm p-6 md:p-10 border border-white/60">
+                        <div className="h-full rounded-2xl shadow-sm p-6 md:p-10 border " style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
                             <h1 className="text-2xl font-oswald-bold text-slate-900 uppercase font-bold">Présentation</h1>
                             <div className="mt-4 space-y-4 text-lg leading-relaxed text-slate-700">
                                 <p>
@@ -30,7 +30,7 @@ function APropos() {
                                 </p>
                             </div>
                         </div>
-                        <div className="bg-white/80 h-full rounded-2xl shadow-sm p-4 md:p-6 border border-white/60 flex items-center justify-center">
+                        <div className="h-full rounded-2xl shadow-sm p-4 md:p-6 border flex items-center justify-center" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
                             <img
                                 src={elisePhoto}
                                 alt="Portrait d'Elise Durand"
@@ -38,7 +38,7 @@ function APropos() {
                             />
                         </div>
                     </div>
-                    <div className="mt-8 bg-white/80 rounded-2xl shadow-sm p-6 md:p-10 border border-white/60">
+                    <div className="mt-8 rounded-2xl shadow-sm p-6 md:p-10 border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
                         <h2 className="text-2xl font-oswald-bold text-slate-900 uppercase font-bold">Formation</h2>
                         <div className="mt-4 space-y-4 text-lg leading-relaxed text-slate-700">
                             <p>

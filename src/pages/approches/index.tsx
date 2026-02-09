@@ -85,7 +85,7 @@ function Approches() {
                                     onClick={() => setSelectedId(item.id)}
                                     className={`rounded-xl border p-4 shadow-sm transition hover:-translate-y-1 ${
                                         isSelected
-                                            ? "bg-orange-300 border-orange-300 text-white"
+                                            ? "bg-[#FFEFD5] border-[#FFEFD5] text-slate-900"
                                             : "bg-white/90 border-white/70 text-slate-900"
                                     }`}
                                 >

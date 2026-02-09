@@ -1,3 +1,5 @@
+import color from '../../assets/styles/color'
+
 function Contact() {
     return (
         <div className={`text-slate-900`}>
@@ -6,7 +8,7 @@ function Contact() {
                 <div className="absolute top-20 -right-10 size-40 rounded-full bg-sky-200/40 z-0" />
                 <div className="absolute bottom-0 left-1/3 size-24 rounded-full bg-orange-200/50 z-0" />
                 <div className="relative z-10 w-full max-w-6xl mx-auto px-6 py-16">
-                    <div className="bg-white/80 rounded-2xl shadow-sm p-6 md:p-10 border border-white/60">
+                    <div className="rounded-2xl shadow-sm p-6 md:p-10 border " style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
                         <div className="grid gap-6 text-lg leading-relaxed text-slate-700 md:grid-cols-2">
                             <div>
                                 <p className="text-sm font-oswald-bold uppercase tracking-[0.2em] text-slate-900">Téléphone</p>
