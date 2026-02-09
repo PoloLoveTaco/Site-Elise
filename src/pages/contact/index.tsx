@@ -9,7 +9,7 @@ function Contact() {
                     <div className="bg-white/80 rounded-2xl shadow-sm p-6 md:p-10 border border-white/60">
                         <div className="grid gap-6 text-lg leading-relaxed text-slate-700 md:grid-cols-2">
                             <div>
-                                <p className="text-sm font-oswald-bold uppercase tracking-[0.2em] text-slate-900">Telephone</p>
+                                <p className="text-sm font-oswald-bold uppercase tracking-[0.2em] text-slate-900">Téléphone</p>
                                 <p className="mt-2 text-2xl text-slate-900">06.74.84.39.73</p>
                             </div>
                             <div>
@@ -20,17 +20,17 @@ function Contact() {
                                 <p className="text-sm font-oswald-bold uppercase tracking-[0.2em] text-slate-900">Adresse</p>
                                 <p className="mt-2 text-xl">MSP des Forges</p>
                                 <p className="text-xl">69 Boulevard Edison</p>
-                                <p className="text-xl">85000 La Roche sur Yon</p>
+                                <p className="text-xl">85000 La Roche-sur-Yon</p>
                             </div>
                             <div>
                                 <p className="text-sm font-oswald-bold uppercase tracking-[0.2em] text-slate-900">Horaires</p>
                                 <p className="mt-2 text-xl">Du lundi au vendredi</p>
-                                <p className="text-xl">de 8h a 18h30</p>
+                                <p className="text-xl">de 8h à 18h30</p>
                             </div>
                         </div>
                         <div className="mt-8">
                             <p className="text-lg text-slate-700">
-                                Pour toute demande de bilan en ergotherapie, vous pouvez vous inscrire sur la liste
+                                Pour toute demande de bilan en ergothérapie, vous pouvez vous inscrire sur la liste
                                 d'attente en suivant le lien ci-dessous :
                             </p>
                             <a

@@ -11,22 +11,22 @@ function APropos() {
                 <div className="relative z-10 w-full max-w-6xl mx-auto px-6 py-16">
                     <div className="grid items-center gap-8 md:grid-cols-[1.2fr_0.8fr]">
                         <div className="bg-white/80 h-full rounded-2xl shadow-sm p-6 md:p-10 border border-white/60">
-                            <h1 className="text-2xl font-oswald-bold text-slate-900 uppercase font-bold">Presentation</h1>
+                            <h1 className="text-2xl font-oswald-bold text-slate-900 uppercase font-bold">Présentation</h1>
                             <div className="mt-4 space-y-4 text-lg leading-relaxed text-slate-700">
                                 <p>
-                                    Diplomee d'Etat en ergotherapie a l'IFE Paris Adere, j'accompagne les enfants et leurs
-                                    familles depuis 2019. Apres plusieurs annees en cabinet liberal specialise en pediatrie
-                                    en region parisienne, completees par des experiences en centres de reeducation aupres
-                                    d'adultes, j'ai pu developper une pratique riche et diversifiee.
+                                    Diplômée d’État en ergothérapie à l’IFE Paris Adere, j’accompagne les enfants et leurs
+                                    familles depuis 2019. Après plusieurs années en cabinet libéral spécialisé en pédiatrie
+                                    en région parisienne, complétées par des expériences en centres de rééducation auprès
+                                    d’adultes, j’ai pu développer une pratique riche et diversifiée.
                                 </p>
                                 <p>
-                                    En 2024, j'ai choisi de rejoindre la maison de sante pluriprofessionnelle des forges a
-                                    La Roche-sur-Yon, animee par le souhait de revenir a mes racines et de continuer d'offrir
-                                    un accompagnement en ergotherapie aux enfants.
+                                    En 2024, j’ai choisi de rejoindre la maison de santé pluriprofessionnelle des Forges à
+                                    La Roche-sur-Yon, animée par le souhait de revenir à mes racines et de continuer d’offrir
+                                    un accompagnement en ergothérapie aux enfants.
                                 </p>
                                 <p>
-                                    Attachee a la qualite de mes prises en soin, je me forme regulierement en pediatrie afin
-                                    de proposer un suivi adapte et personnalise.
+                                    Attachée à la qualité de mes prises en soin, je me forme régulièrement en pédiatrie afin
+                                    de proposer un suivi adapté et personnalisé.
                                 </p>
                             </div>
                         </div>
@@ -42,45 +42,45 @@ function APropos() {
                         <h2 className="text-2xl font-oswald-bold text-slate-900 uppercase font-bold">Formation</h2>
                         <div className="mt-4 space-y-4 text-lg leading-relaxed text-slate-700">
                             <p>
-                                Tout au long de ma pratique, je realise des formations afin d'enrichir mes competences et
-                                de proposer un accompagnement adapte aux besoins specifiques de chaque enfant. J'ai ainsi
+                                Tout au long de ma pratique, je réalise des formations afin d’enrichir mes compétences et
+                                de proposer un accompagnement adapté aux besoins spécifiques de chaque enfant. J’ai ainsi
                                 suivi des formations dans les domaines suivants :
                             </p>
                             <div className="grid gap-4 md:grid-cols-2">
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
-                                        Integration sensorielle
+                                        Intégration sensorielle
                                     </h3>
                                     <p className="mt-2 text-slate-700">
-                                        Comprendre comment l'enfant percoit et organise les informations sensorielles pour
-                                        agir au quotidien, et l'accompagner s'il rencontre des difficultes affectant ses
+                                        Comprendre comment l’enfant perçoit et organise les informations sensorielles pour
+                                        agir au quotidien, et l’accompagner s’il rencontre des difficultés affectant ses
                                         apprentissages ou son comportement.
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
-                                        Troubles de l'alimentation
+                                        Troubles de l’alimentation
                                     </h3>
                                     <p className="mt-2 text-slate-700">
-                                        Soutien des enfants presentant des selectivites ou des difficultes alimentaires.
+                                        Soutien des enfants présentant des sélectivités ou des difficultés alimentaires.
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
-                                        Trouble du spectre de l'autisme (TSA)
+                                        Trouble du spectre de l’autisme (TSA)
                                     </h3>
                                     <p className="mt-2 text-slate-700">
-                                        Approches specifiques pour favoriser l'autonomie et la participation au quotidien
+                                        Approches spécifiques pour favoriser l’autonomie et la participation au quotidien
                                         des enfants TSA.
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
-                                        Methode CO-OP
+                                        Méthode CO-OP
                                     </h3>
                                     <p className="mt-2 text-slate-700">
-                                        Cognitive Orientation to daily Occupational Performance : accompagnement centre
-                                        sur les strategies pour ameliorer l'autonomie dans les activites de vie
+                                        Cognitive Orientation to daily Occupational Performance : accompagnement centré
+                                        sur les stratégies pour améliorer l’autonomie dans les activités de vie
                                         quotidienne.
                                     </p>
                                 </div>
@@ -89,38 +89,38 @@ function APropos() {
                                         MCRO
                                     </h3>
                                     <p className="mt-2 text-slate-700">
-                                        Mesure Canadienne du Rendement Occupationnel : outil d'evaluation et de suivi
-                                        collaboratif pour identifier les activites importantes a ameliorer, puis mesurer
-                                        les progres realises.
+                                        Mesure Canadienne du Rendement Occupationnel : outil d’évaluation et de suivi
+                                        collaboratif pour identifier les activités importantes à améliorer, puis mesurer
+                                        les progrès réalisés.
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
-                                        Motricite fine
+                                        Motricité fine
                                     </h3>
                                     <p className="mt-2 text-slate-700">
-                                        Ameliorer les competences en motrices fine, coordination oeil-main et bi-manuelle,
-                                        essentielles pour les gestes precis du quotidien et de l'ecole.
+                                        Améliorer les compétences en motricité fine, coordination œil-main et bimanuelle,
+                                        essentielles pour les gestes précis du quotidien et de l’école.
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
-                                        Developpement de l'enfant (0 a 6 ans)
+                                        Développement de l’enfant (0 à 6 ans)
                                     </h3>
                                     <p className="mt-2 text-slate-700">
-                                        Acquisition des reperes essentiels sur les etapes cles du developpement moteur,
-                                        cognitif, emotionnel et social afin d'identifier precocement d'eventuelles
-                                        difficultes et d'adapter les interventions.
+                                        Acquisition des repères essentiels sur les étapes clés du développement moteur,
+                                        cognitif, émotionnel et social afin d’identifier précocement d’éventuelles
+                                        difficultés et d’adapter les interventions.
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
                                     <h3 className="font-oswald-bold text-slate-900 uppercase">
-                                        Reflexes archaiques
+                                        Réflexes archaïques
                                     </h3>
                                     <p className="mt-2 text-slate-700">
-                                        Etude des reflexes primitifs du nourrisson et de leur integration. Comprendre
-                                        comment certains reflexes persistants peuvent influencer la posture, la motricite,
-                                        l'equilibre et l'apprentissage, et adapter les interventions.
+                                        Étude des réflexes primitifs du nourrisson et de leur intégration. Comprendre
+                                        comment certains réflexes persistants peuvent influencer la posture, la motricité,
+                                        l’équilibre et l’apprentissage, et adapter les interventions.
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className="rounded-xl border p-4 shadow-sm md:col-span-2">
@@ -128,15 +128,15 @@ function APropos() {
                                         Le trouble du calcul
                                     </h3>
                                     <p className="mt-2 text-slate-700">
-                                        L'accompagnement des troubles du calcul vise a ameliorer les apprentissages
-                                        mathematiques aux situations de la vie quotidienne, comme gerer son argent, lire
-                                        l'heure, mesurer des ingredients.
+                                        L’accompagnement des troubles du calcul vise à améliorer les apprentissages
+                                        mathématiques aux situations de la vie quotidienne, comme gérer son argent, lire
+                                        l’heure, mesurer des ingrédients.
                                     </p>
                                 </div>
                             </div>
                             <p>
-                                Ces differentes formations me permettent de proposer une prise en charge globale et
-                                personnalisee, en tenant compte des besoins propres a chaque enfant et de leur famille.
+                                Ces différentes formations me permettent de proposer une prise en charge globale et
+                                personnalisée, en tenant compte des besoins propres à chaque enfant et de leur famille.
                             </p>
                         </div>
                     </div>

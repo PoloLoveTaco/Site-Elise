@@ -16,7 +16,7 @@ function Home() {
 
                 {/* Contenu NON flou */}
                 <div className="relative z-[1] flex flex-col text-center justify-center items-center h-full text-white font-bold">
-                    <p className='text-6xl'>Cabinet d’ergothérapie à la Roche sur yon</p>
+                    <p className='text-6xl'>Cabinet d’ergothérapie à La Roche-sur-Yon</p>
                     <p className='text-3xl'>spécialisé en ergothérapie</p>
                 </div>
             </div>
@@ -26,13 +26,18 @@ function Home() {
                 </h2>
                 <ul className='space-y-4 text-lg leading-relaxed text-black/80 list-disc pl-6'>
                     <li>
-                        L’ergothérapeute (Occupational Therapist) est un professionnel de santé, exerçant dans les champs sanitaire, médico-social et social. Collaborant avec de nombreux professionnels (médecins, auxiliaires médicaux, travailleurs sociaux, acteurs de l’enseignement et de la formation, techniciens de l’habitat…), il est un intervenant incontournable dans le processus d’adaptation, de réadaptation et d’intégration sociale des personnes.
+                        L’ergothérapeute (Occupational Therapist) est un professionnel de santé, exerçant dans les champs sanitaire, médico-social et social.
+                        Collaborant avec de nombreux professionnels (médecins, auxiliaires médicaux, travailleurs sociaux, acteurs de l’enseignement et de la formation,
+                        techniciens de l’habitat…), il est un intervenant incontournable dans le processus d’adaptation, de réadaptation et d’intégration sociale des personnes.
                     </li>
                     <li>
-                        Spécialiste du rapport entre l’activité (ou occupation en lien avec la terminologie internationale désignant l’ergothérapie) et la santé, il mène des actions d’une part pour prévenir et modifier les activités délétères pour la santé, et d’autre part pour assurer l’accès des individus aux occupations qu’ils veulent ou doivent faire et rendre possible leur accomplissement de façon sécurisée, autonome, indépendante et efficace.
+                        Spécialiste du rapport entre l’activité (ou occupation en lien avec la terminologie internationale désignant l’ergothérapie) et la santé,
+                        il mène des actions d’une part pour prévenir et modifier les activités délétères pour la santé,
+                        et d’autre part pour assurer l’accès des individus aux occupations qu’ils veulent ou doivent faire et
+                        rendre possible leur accomplissement de façon sécurisée, autonome, indépendante et efficace.
                     </li>
                     <li>
-                        (ANFE : association nationale française des ergothérapeute)
+                        (ANFE : association nationale française des ergothérapeutes)
                     </li>
                 </ul>
             </section>

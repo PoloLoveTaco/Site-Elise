@@ -5,13 +5,13 @@ function Interventions() {
     return (
         <div className={`text-slate-900`}>
             <div className="relative w-full h-screen overflow-hidden">
-                {/* Image floutee */}
+                {/* Image floutée */}
                 <div
                     className="absolute inset-0 bg-cover bg-center blur-sm"
                     style={{ backgroundImage: `url(${interventionsBanner})` }}
                 />
 
-                {/* Overlay sombre (optionnel pour lisibilite) */}
+                {/* Overlay sombre (optionnel pour lisibilité) */}
                 <div className="absolute inset-0 bg-black/35" />
 
                 {/* Contenu NON flou */}
@@ -26,15 +26,15 @@ function Interventions() {
                 <div className="absolute bottom-0 left-1/3 size-24 rounded-full bg-orange-200/50 z-0" />
                 <div className="relative z-10 max-w-6xl mx-auto px-6 pt-16">
                     <h1 className="text-2xl md:text-4xl font-oswald-bold text-slate-900 font-bold">
-                        Bilans d'evaluation
+                        Bilans d’évaluation
                     </h1>
                     <p className="text-lg text-slate-700 mt-4">
-                        Le bilan en ergotherapie en pediatrie est realise sur prescription medicale et dure en
-                        moyenne 2 a 3 heures.
+                        Le bilan en ergothérapie en pédiatrie est réalisé sur prescription médicale et dure en
+                        moyenne 2 à 3 heures.
                     </p>
                     <p className="text-lg text-slate-700">
-                        Il s'agit d'une evaluation complete qui permet de mieux comprendre le fonctionnement
-                        de l'enfant dans son quotidien.
+                        Il s’agit d’une évaluation complète qui permet de mieux comprendre le fonctionnement
+                        de l’enfant dans son quotidien.
                     </p>
                 </div>
             </section>
@@ -42,12 +42,12 @@ function Interventions() {
             <section className="px-6 py-6 max-w-6xl mx-auto">
                 <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-white/60">
                     <h2 className="text-2xl font-oswald-bold text-slate-900 mb-3">
-                        L'ergotherapeute observe et analyse
+                        L’ergothérapeute observe et analyse
                     </h2>
                     <ul className="list-disc pl-5 space-y-2 text-slate-700">
-                        <li>Les capacites et les difficultes de l'enfant.</li>
+                        <li>Les capacités et les difficultés de l’enfant.</li>
                         <li>Son environnement (scolaire, familial, social).</li>
-                        <li>Ses habitudes de vie et ses activites.</li>
+                        <li>Ses habitudes de vie et ses activités.</li>
                     </ul>
                 </div>
             </section>
@@ -57,11 +57,11 @@ function Interventions() {
                 <div className="absolute right-6 bottom-2 size-24 rounded-full bg-sky-100/60 z-0" />
                 <div className="relative z-10 space-y-6">
                     <p className="text-lg leading-relaxed text-slate-700">
-                        A partir de cette evaluation, l'ergotherapeute definit avec l'enfant et sa famille
-                        les occupations prioritaires a travailler (par exemple : l'ecriture, l'autonomie dans
-                        l'habillage, la participation aux repas, l'organisation scolaire, etc.).
-                        L'ergotherapeute evalue ensuite les difficultes qui freinent la realisation de ces
-                        activites.
+                        À partir de cette évaluation, l’ergothérapeute définit avec l’enfant et sa famille
+                        les occupations prioritaires à travailler (par exemple : l’écriture, l’autonomie dans
+                        l’habillage, la participation aux repas, l’organisation scolaire, etc.).
+                        L’ergothérapeute évalue ensuite les difficultés qui freinent la réalisation de ces
+                        activités.
                     </p>
                 </div>
             </section>
@@ -72,14 +72,14 @@ function Interventions() {
                         Le bilan peut avoir plusieurs objectifs
                     </h2>
                     <ul className="list-disc pl-5 space-y-2 text-slate-700">
-                        <li>Aider a la recherche d'un diagnostic medical.</li>
+                        <li>Aider à la recherche d’un diagnostic médical.</li>
                         <li>
-                            Definir un projet de reeducation ou de readaptation (activite de vie quotidienne,
+                            Définir un projet de rééducation ou de réadaptation (activité de vie quotidienne,
                             graphisme, sensoriel, alimentaire, troubles du calcul...).
                         </li>
                         <li>
-                            Preconiser des amenagements scolaires (ex. : tiers-temps, adaptations pedagogiques)
-                            et/ou du materiel adapte (ordinateur, tablette, outils specifiques).
+                            Préconiser des aménagements scolaires (ex. : tiers-temps, adaptations pédagogiques)
+                            et/ou du matériel adapté (ordinateur, tablette, outils spécifiques).
                         </li>
                     </ul>
                 </div>
@@ -88,10 +88,10 @@ function Interventions() {
             <section className="relative px-6 pb-12 max-w-6xl mx-auto">
                 <div>
                     <p className="text-lg leading-relaxed text-slate-700">
-                        A l'issue du bilan, un compte rendu detaille est remis a la famille et peut etre
-                        transmis aux professionnels concernes (medecins, enseignants, orthophonistes,
-                        psychomotriciens, etc.), afin de favoriser une prise en charge coherente et adaptee
-                        aux besoins de l'enfant.
+                        À l’issue du bilan, un compte rendu détaillé est remis à la famille et peut être
+                        transmis aux professionnels concernés (médecins, enseignants, orthophonistes,
+                        psychomotriciens, etc.), afin de favoriser une prise en charge cohérente et adaptée
+                        aux besoins de l’enfant.
                     </p>
                 </div>
             </section>
@@ -101,35 +101,35 @@ function Interventions() {
                 <div className="absolute bottom-0 left-10 size-28 rounded-full bg-sky-100/60 z-0" />
                 <div className="relative z-10 max-w-6xl mx-auto px-6 py-12">
                     <h2 className="text-2xl md:text-4xl font-oswald-bold text-slate-900 font-bold">
-                        Seances au cabinet
+                        Séances au cabinet
                     </h2>
                     <p className="text-lg text-slate-700 mt-4">
-                        Les seances d'ergotherapie se deroulent au cabinet, a raison de 45 minutes par semaine.
-                        La duree de l'accompagnement varie selon les besoins de l'enfant : il peut s'agir de
-                        quelques seances ciblees ou d'un suivi plus regulier, par exemple sur une annee scolaire.
+                        Les séances d’ergothérapie se déroulent au cabinet, à raison de 45 minutes par semaine.
+                        La durée de l’accompagnement varie selon les besoins de l’enfant : il peut s’agir de
+                        quelques séances ciblées ou d’un suivi plus régulier, par exemple sur une année scolaire.
                     </p>
                     <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-white/60 mt-6">
                         <h2 className="text-2xl font-oswald-bold text-slate-900 mb-3">
-                            Chaque seance est personnalisee et peut avoir plusieurs objectifs :
+                            Chaque séance est personnalisée et peut avoir plusieurs objectifs :
                         </h2>
                         <ul className="list-disc pl-5 space-y-2 text-slate-700">
                             <li>
-                                Reeduction des activites de vie quotidienne et scolaires : graphisme, habillage,
-                                repas, utilisation du velo, etc.
+                                Rééducation des activités de vie quotidienne et scolaires : graphisme, habillage,
+                                repas, utilisation du vélo, etc.
                             </li>
                             <li>
-                                Mise en place de moyens de readaptation : amenagements scolaires, outils adaptes,
-                                materiel informatique, strategies organisationnelles.
+                                Mise en place de moyens de réadaptation : aménagements scolaires, outils adaptés,
+                                matériel informatique, stratégies organisationnelles.
                             </li>
                             <li>
-                                Prevention et accompagnement : conseils pour le choix des fournitures scolaires,
-                                strategies pour faciliter les devoirs, guidance parentale pour soutenir l'enfant a
+                                Prévention et accompagnement : conseils pour le choix des fournitures scolaires,
+                                stratégies pour faciliter les devoirs, guidance parentale pour soutenir l’enfant à
                                 la maison.
                             </li>
                         </ul>
                         <p className="text-lg text-slate-700 pt-4">
-                            L'ergotherapeute travaille en etroite collaboration avec l'enfant, sa famille, l'ecole,
-                            et les professionnels de sante.
+                            L’ergothérapeute travaille en étroite collaboration avec l’enfant, sa famille, l’école,
+                            et les professionnels de santé.
                         </p>
                     </div>
                 </div>
@@ -140,13 +140,13 @@ function Interventions() {
                 <div className="absolute right-8 bottom-0 size-24 rounded-full bg-emerald-100/60 z-0" />
                 <div className="relative z-10 max-w-6xl mx-auto px-6 py-12">
                     <h2 className="text-2xl md:text-4xl font-oswald-bold text-slate-900 font-bold">
-                        Seances à domicile ou dans les ecoles
+                        Séances à domicile ou dans les écoles
                     </h2>
                     <p className="text-lg text-slate-700 mt-4">
-                        En complement des seances realisees au cabinet, des interventions ponctuelles a domicile
-                        et/ou a l'ecole peuvent etre proposees. Elles permettent de transferer les acquis
-                        travailles lors des seances dans les differents environnements de l'enfant et de
-                        favoriser leur integration dans son quotidien.
+                        En complément des séances réalisées au cabinet, des interventions ponctuelles à domicile
+                        et/ou à l’école peuvent être proposées. Elles permettent de transférer les acquis
+                        travaillés lors des séances dans les différents environnements de l’enfant et de
+                        favoriser leur intégration dans son quotidien.
                     </p>
                 </div>
             </section>

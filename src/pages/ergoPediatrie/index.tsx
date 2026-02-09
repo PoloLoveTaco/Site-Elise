@@ -33,7 +33,7 @@ function ErgoPediatrie() {
                         activités significatives visant à préserver et développer leur indépendance et leur
                         autonomie au quotidien, à l’école et dans leurs loisirs. Elle propose une approche
                         globale de l’enfant et se pratique au travers de la rééducation, de la réadaptation,
-                        par et pour l’activité ». (ANFE : association nationale française des ergothérapeute)
+                        par et pour l’activité ». (ANFE : association nationale française des ergothérapeutes)
                     </p>
                 </div>
             </section>
@@ -52,7 +52,7 @@ function ErgoPediatrie() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-white/60">
-                        <h3 className="text-xl font-oswald-bold text-slate-900 mb-3">A la maison</h3>
+                        <h3 className="text-xl font-oswald-bold text-slate-900 mb-3">À la maison</h3>
                         <ul className="list-disc pl-5 space-y-2 text-slate-700">
                             <li>Difficultés lors de l’habillage (lacets, boutons de vêtements…)</li>
                             <li>Difficultés pour prendre sa douche</li>
@@ -64,7 +64,7 @@ function ErgoPediatrie() {
                     </div>
 
                     <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-white/60">
-                        <h3 className="text-xl font-oswald-bold text-slate-900 mb-3">A l’école</h3>
+                        <h3 className="text-xl font-oswald-bold text-slate-900 mb-3">À l’école</h3>
                         <ul className="list-disc pl-5 space-y-2 text-slate-700">
                             <li>Difficultés lors de la tâche graphique (reproduire des lettres ou des formes etc...)</li>
                             <li>Difficultés pour tenir son crayon</li>
