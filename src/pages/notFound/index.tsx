@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 function NotFound() {
     return (
         <div className={`min-h-[80vh] flex flex-col items-center justify-center text-center px-4`}>
-            <h1 className="text-6xl font-bold text-orange-300 mb-4">
+            <h1 className="text-6xl font-bold text-[#997f6b] mb-4">
                 404
             </h1>
 
@@ -17,7 +17,7 @@ function NotFound() {
 
             <Link
                 to="/home"
-                className="mt-4 inline-block bg-orange-400 text-white px-6 py-3 rounded-lg font-oswald hover:bg-orange-500 transition"
+                className="mt-4 inline-block bg-[#997f6b] text-white px-6 py-3 rounded-lg font-oswald hover:bg-[#997f6b]/80 transition"
             >
                 Retour à l’accueil
             </Link>

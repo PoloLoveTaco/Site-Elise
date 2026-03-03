@@ -23,12 +23,6 @@ function HeaderBar() {
 		return () => window.removeEventListener("scroll", onScroll)
 	}, [])
 
-	const forceSolidHeaderContact = location.pathname === "/contact"
-	const forceSolidHeaderPropos  = location.pathname === "/apropos"
-
-	const bgColor   = isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? color.primary1 : "transparent";
-	const textColor = isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? color.primary2 : color.primary1;
-
 	const normalizePath = (p: string) => {
 		const path = (p || "").toLowerCase();
 		if (path === "" || path === "/" || path === "/home") return "/home";
@@ -37,7 +31,7 @@ function HeaderBar() {
 
 	return (
 		<header
-			style={{ backgroundColor: bgColor, color: textColor }}
+			style={{ backgroundColor: color.primary1, color: color.primary2 }}
 			className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300`}
 		>
 			<div className="w-full px-3 py-3">
@@ -75,7 +69,7 @@ function HeaderBar() {
 					>
 						{!isMenuOpen ? (
 							/* ICON BURGER */
-							<svg xmlns="http://www.w3.org/2000/svg" fill={textColor} className="size-6" viewBox="0 0 24 24">
+							<svg xmlns="http://www.w3.org/2000/svg" fill={color.primary2} className="size-6" viewBox="0 0 24 24">
 								<path
 									fillRule="evenodd"
 									d="M3.75 5.25a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5H4.5a.75.75 0 0 1-.75-.75Zm0 6a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5H4.5a.75.75 0 0 1-.75-.75Zm0 6a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5H4.5a.75.75 0 0 1-.75-.75Z"
