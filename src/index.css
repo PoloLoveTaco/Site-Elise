@@ -1,9 +1,19 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: Leckerli;
+  src: url("assets/fonts/Leckerli_One,Pixelify_Sans/Leckerli_One/LeckerliOne-Regular.ttf");
+}
+
+@theme {
+  --font-leckerli: "Leckerli", cursive;
+}
+
 :root {
   --font-main: "Oswald", sans-serif;
 }
 
 body {
   font-family: var(--font-main);
+  background-color: #FFFFFF;
 }

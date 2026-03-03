@@ -1,8 +1,9 @@
 import ergoPediatrieBanner from "../../assets/baniere-ergo-pedia.png"
+import color from "../../assets/styles/color"
 
 function ErgoPediatrie() {
     return (
-        <div className="bg-[#FAEEDA] text-slate-900">
+        <div className={`text-slate-900`}>
             <div className='relative w-full h-screen overflow-hidden'>
                 {/* Image floutée */}
                 <div
@@ -18,27 +19,21 @@ function ErgoPediatrie() {
                     <p className='text-6xl'>L’ergothérapie en pédiatrie</p>
                 </div>
             </div>
-            <section className="relative overflow-hidden bg-gradient-to-b from-[#F7E9D6] to-[#FAEEDA]">
+            <section className={`relative overflow-hidden bg-[${color.primary1}]`}>
                 <div className="absolute -top-12 -left-16 size-48 rounded-full bg-emerald-200/40 z-0" />
                 <div className="absolute top-20 -right-10 size-40 rounded-full bg-sky-200/40 z-0" />
                 <div className="absolute bottom-0 left-1/3 size-24 rounded-full bg-orange-200/50 z-0" />
-                <div className="relative z-10 max-w-6xl mx-auto px-6 pt-12">
-                    <p className="text-lg md:text-xl text-slate-700 mt-4 max-w-3xl">
-                        Une approche globale qui aide l’enfant à gagner en autonomie au quotidien, à l’école
-                        et dans ses loisirs, en s’appuyant sur des activités significatives et adaptées.
-                    </p>
-                </div>
             </section>
 
             <section className="px-6 py-12 max-w-6xl mx-auto">
-                <div className="bg-white/80 rounded-2xl shadow-sm p-6 border border-white/60">
-                    <p className="text-lg leading-relaxed text-slate-700">
+                <div className="rounded-2xl shadow-sm p-6 border border-white/60" style={{ backgroundColor: color.secondaireO1}}>
+                    <p className="text-lg leading-relaxed text-slate-700 text-justify">
                         « L’ergothérapie est une profession de santé paramédicale visant à prévenir, réduire
                         ou supprimer les situations de handicap des enfants de tout âge. Elle se base sur des
                         activités significatives visant à préserver et développer leur indépendance et leur
                         autonomie au quotidien, à l’école et dans leurs loisirs. Elle propose une approche
                         globale de l’enfant et se pratique au travers de la rééducation, de la réadaptation,
-                        par et pour l’activité ». (ANFE : association nationale française des ergothérapeute)
+                        par et pour l’activité ». (ANFE : association nationale française des ergothérapeutes)
                     </p>
                 </div>
             </section>
@@ -47,17 +42,17 @@ function ErgoPediatrie() {
                 <div className="absolute -left-10 top-10 size-32 rounded-full bg-emerald-100/60 z-0" />
                 <div className="absolute right-6 bottom-2 size-24 rounded-full bg-sky-100/60 z-0" />
                 <div className="relative z-10">
-                <h2 className="text-2xl md:text-3xl font-oswald-bold text-slate-900 mb-4 font-bold">
+                <h2 className="text-2xl md:text-3xl text-sky-300 font-leckerli mb-4 font-bold">
                     Quand consulter ?
                 </h2>
-                <p className="text-lg leading-relaxed text-slate-700 mb-6 max-w-3xl">
+                <p className="text-lg leading-relaxed text-slate-700 mb-6 max-w-3xl text-justify">
                     Vous pouvez contacter un ergothérapeute lorsque votre enfant rencontre une ou plusieurs
                     difficultés dans ses activités de vie quotidienne et/ou scolaires.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-white/60">
-                        <h3 className="text-xl font-oswald-bold text-slate-900 mb-3">A la maison</h3>
+                    <div className="rounded-2xl p-6 shadow-sm border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
+                        <h3 className="text-xl font-oswald-bold text-slate-700 mb-3 font-leckerli">À la maison</h3>
                         <ul className="list-disc pl-5 space-y-2 text-slate-700">
                             <li>Difficultés lors de l’habillage (lacets, boutons de vêtements…)</li>
                             <li>Difficultés pour prendre sa douche</li>
@@ -68,8 +63,8 @@ function ErgoPediatrie() {
                         </ul>
                     </div>
 
-                    <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-white/60">
-                        <h3 className="text-xl font-oswald-bold text-slate-900 mb-3">A l’école</h3>
+                    <div className="rounded-2xl p-6 shadow-sm border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
+                        <h3 className="text-xl font-oswald-bold text-slate-700 mb-3 font-leckerli">À l’école</h3>
                         <ul className="list-disc pl-5 space-y-2 text-slate-700">
                             <li>Difficultés lors de la tâche graphique (reproduire des lettres ou des formes etc...)</li>
                             <li>Difficultés pour tenir son crayon</li>
@@ -80,8 +75,8 @@ function ErgoPediatrie() {
                         </ul>
                     </div>
 
-                    <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-white/60">
-                        <h3 className="text-xl font-oswald-bold text-slate-900 mb-3">Sensoriel</h3>
+                    <div className="rounded-2xl p-6 shadow-sm border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
+                        <h3 className="text-xl font-oswald-bold text-slate-700 mb-3 font-leckerli">Sensoriel</h3>
                         <ul className="list-disc pl-5 space-y-2 text-slate-700">
                             <li>Hypo ou hypersensibilité dans un (ou plusieurs) champ(s) sensoriel(s)</li>
                             <li>Comportements de retrait, de frustration ou d’agressivité inhabituels</li>
@@ -99,7 +94,7 @@ function ErgoPediatrie() {
 
             <section className="py-12">
                 <div className="max-w-6xl mx-auto px-6">
-                    <h2 className="text-2xl md:text-3xl font-oswald-bold text-slate-900 font-bold">
+                    <h2 className="text-2xl md:text-3xl text-sky-300 font-leckerli font-bold">
                         L’ergothérapie en pédiatrie, pour qui ?
                     </h2>
                 </div>

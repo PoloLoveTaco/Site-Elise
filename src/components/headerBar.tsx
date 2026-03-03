@@ -1,7 +1,9 @@
 import { Link, useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
+import color from '../assets/styles/color';
 
 const navItems = [
+	{ label: "Acceuil", to: "/home" },
 	{ label: "L’ergothérapie en pédiatrie", to: "/ergopediatrie" },
 	{ label: "Les interventions", to: "/interventions" },
 	{ label: "Les approches", to: "/approches" },
@@ -22,28 +24,40 @@ function HeaderBar() {
 	}, [])
 
 	const forceSolidHeaderContact = location.pathname === "/contact"
-	const forceSolidHeaderPropos = location.pathname === "/apropos"
+	const forceSolidHeaderPropos  = location.pathname === "/apropos"
+
+	const bgColor   = isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? color.primary1 : "transparent";
+	const textColor = isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? color.primary2 : color.primary1;
+
+	const normalizePath = (p: string) => {
+		const path = (p || "").toLowerCase();
+		if (path === "" || path === "/" || path === "/home") return "/home";
+		return path;
+	};
 
 	return (
-		<header className={`text-white fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? "bg-orange-300" : "bg-transparent"}`}>
-			<div className="w-full px-3">
+		<header
+			style={{ backgroundColor: bgColor, color: textColor }}
+			className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300`}
+		>
+			<div className="w-full px-3 py-3">
 				<div className="flex h-18 items-center justify-between">
 
-					{/* LOGO + TITRE */}
+					{/* TITRE */}
 					<Link to="/home" className="flex items-center gap-3">
-						<p className="font-oswald-bold text-3xl text-white">
-							Elise Durand
+						<p className={`text-3xl text-sky-300 font-leckerli`}>
+							Elise Durand Ergothérapeute
 						</p>
 					</Link>
 
 
 					{/* NAVIGATION DESKTOP */}
 					<nav className="hidden md:flex items-center ml-auto">
-						<ul className="flex items-center gap-3">
+						<ul className="flex items-center gap-1">
 							{navItems.map((item) => (
 								<li key={item.label}>
 									<Link to={item.to}>
-										<p className="font-oswald text-lg lg:text-xl py-2 px-3">
+										<p className={`font-oswald text-lg lg:text-lg py-2 px-3 ${normalizePath(location.pathname) === normalizePath(item.to) ? "text-sky-300" : ""}`}>
 											{item.label}
 										</p>
 									</Link>
@@ -61,7 +75,7 @@ function HeaderBar() {
 					>
 						{!isMenuOpen ? (
 							/* ICON BURGER */
-							<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="size-6" viewBox="0 0 24 24">
+							<svg xmlns="http://www.w3.org/2000/svg" fill={textColor} className="size-6" viewBox="0 0 24 24">
 								<path
 									fillRule="evenodd"
 									d="M3.75 5.25a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5H4.5a.75.75 0 0 1-.75-.75Zm0 6a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5H4.5a.75.75 0 0 1-.75-.75Zm0 6a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5H4.5a.75.75 0 0 1-.75-.75Z"
@@ -89,7 +103,7 @@ function HeaderBar() {
 						{navItems.map((item) => (
 							<li key={item.label}>
 								<Link to={item.to}>
-									<p className="font-oswald text-lg py-2 px-3">
+									<p className={`font-oswald text-lg py-2 px-3 ${normalizePath(location.pathname) === normalizePath(item.to) ? "text-sky-300" : ""}`}>
 										{item.label}
 									</p>
 								</Link>

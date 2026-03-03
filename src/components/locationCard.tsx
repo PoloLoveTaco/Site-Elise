@@ -1,6 +1,8 @@
+import color from "../assets/styles/color";
+
 function LocationCard() {
     return (
-        <div className="bg-orange-200 flex justify-center py-14 px-4">
+        <div className={`bg-[${color.primary1}] flex justify-center py-14 px-4`}>
             <div className="max-w-6xl w-full bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row">
 
                 {/* MAP AREA / Left */}
@@ -15,7 +17,7 @@ function LocationCard() {
                 </div>
 
                 {/* TEXT AREA / Right */}
-                <div className="bg-gray-200 p-10 md:w-1/2 text-gray-900 flex flex-col justify-center">
+                <div className="bg-gray-200 p-10 md:w-1/2 text-gray-900 flex flex-col justify-center" style={{ backgroundColor: color.secondaireO1}}>
                     <h2 className="text-2xl font-bold mb-4 leading-tight">
                         Maison de santé
                         <br />
@@ -33,7 +35,7 @@ function LocationCard() {
                         </p>
                     </div>
 
-                    <p className="text-base leading-relaxed">
+                    <p className="text-base leading-relaxed text-justify">
                         Le cabinet d’ergothérapie est situé à 10 minutes à pied de la gare <span className="font-semibold">SNCF</span>,
                         il est accessible par <span className="font-semibold">bus (7B, 7 et 6)</span>. 
                         Il dispose d’une salle d’attente et des toilettes avec 
