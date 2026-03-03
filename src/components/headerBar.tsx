@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import color from '../assets/styles/color';
 
 const navItems = [
@@ -13,15 +13,7 @@ const navItems = [
 
 function HeaderBar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
-	const [isScrolled, setIsScrolled] = useState(false)
 	const location = useLocation()
-
-	useEffect(() => {
-		const onScroll = () => setIsScrolled(window.scrollY > 0)
-		onScroll()
-		window.addEventListener("scroll", onScroll, { passive: true })
-		return () => window.removeEventListener("scroll", onScroll)
-	}, [])
 
 	const normalizePath = (p: string) => {
 		const path = (p || "").toLowerCase();
