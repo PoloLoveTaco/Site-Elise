@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import color from '../assets/styles/color';
 
 const navItems = [
-	{ label: "Acceuil", to: "/home" },
+	{ label: "Accueil", to: "/home" },
 	{ label: "L’ergothérapie en pédiatrie", to: "/ergopediatrie" },
 	{ label: "Les interventions", to: "/interventions" },
 	{ label: "Les approches", to: "/approches" },
