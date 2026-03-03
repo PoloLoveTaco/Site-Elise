@@ -11,21 +11,21 @@ function Contact() {
                     <div className="rounded-2xl shadow-sm p-6 md:p-10 border " style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
                         <div className="grid gap-6 text-lg leading-relaxed text-slate-700 md:grid-cols-2">
                             <div>
-                                <p className="text-sm font-oswald-bold uppercase tracking-[0.2em] text-slate-900">Téléphone</p>
+                                <p className="text-lg font-leckerli text-slate-900">Téléphone</p>
                                 <p className="mt-2 text-2xl text-slate-900">06.74.84.39.73</p>
                             </div>
                             <div>
-                                <p className="text-sm font-oswald-bold uppercase tracking-[0.2em] text-slate-900">Mail</p>
+                                <p className="text-lg font-leckerli text-slate-900">Mail</p>
                                 <p className="mt-2 text-2xl text-slate-900">elisedurand.ergo@gmail.com</p>
                             </div>
                             <div>
-                                <p className="text-sm font-oswald-bold uppercase tracking-[0.2em] text-slate-900">Adresse</p>
+                                <p className="text-lg font-leckerli text-slate-900">Adresse</p>
                                 <p className="mt-2 text-xl">MSP des Forges</p>
                                 <p className="text-xl">69 Boulevard Edison</p>
                                 <p className="text-xl">85000 La Roche-sur-Yon</p>
                             </div>
                             <div>
-                                <p className="text-sm font-oswald-bold uppercase tracking-[0.2em] text-slate-900">Horaires</p>
+                                <p className="text-lg font-leckerli text-slate-900">Horaires</p>
                                 <p className="mt-2 text-xl">Du lundi au vendredi</p>
                                 <p className="text-xl">de 8h à 18h30</p>
                             </div>
@@ -36,7 +36,7 @@ function Contact() {
                                 d'attente en suivant le lien ci-dessous :
                             </p>
                             <a
-                                className="mt-4 inline-flex items-center justify-center rounded-full bg-orange-500 px-6 py-3 text-sm font-oswald-bold uppercase tracking-[0.2em] text-white transition hover:bg-orange-600"
+                                className="mt-4 inline-flex items-center justify-center rounded-full bg-[#997f6b] px-6 py-3 text-lg font-leckerli text-white transition hover:bg-[#997f6b]/80"
                                 href="https://www.rdvlive.fr/r/form/EPSPZ4"
                                 target="_blank"
                                 rel="noreferrer"

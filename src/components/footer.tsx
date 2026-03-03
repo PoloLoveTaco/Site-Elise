@@ -8,7 +8,7 @@ export default function Footer() {
 				<div>
 					<h2 className="text-xl md:text-2xl leading-relaxed max-w-xl">
 						<p>Cabinet ergothérapie à la Roche sur Yon</p>
-						<p><span className="font-semibold text-sky-300">Elise Durand</span> Ergothérapeute D.E.</p>
+						<p><span className="font-semibold text-[#997f6b]">Elise Durand</span> Ergothérapeute D.E.</p>
 					</h2>
 
 					<p className="text-sm opacity-80 mt-6 max-w-sm leading-relaxed">

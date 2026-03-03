@@ -31,7 +31,7 @@ function Home() {
                 <div className="absolute bottom-0 left-1/3 size-24 rounded-full bg-orange-200/30 z-0" />
                 <div className="relative z-10 max-w-6xl mx-auto px-6 pt-16">
                     <h2 className='text-3xl md:text-4xl font-oswald-bold text-black mb-6 font-bold'>
-                        <span className='block text-sky-300 font-leckerli'>Qu’est-ce que l’ergothérapie ?</span>
+                        <span className='block text-[#997f6b] font-leckerli'>Qu’est-ce que l’ergothérapie ?</span>
                     </h2>
                     <ul className='space-y-4 text-lg leading-relaxed text-black/80 list-disc pl-6'>
                         <li className='text-justify'>
@@ -58,7 +58,7 @@ function Home() {
                 <div className="absolute -left-12 top-60 size-36 rounded-full bg-orange-200/50 z-0" />
                 <div className="relative z-10 max-w-6xl mx-auto px-6 pt-16">
                     <h2 className='text-3xl md:text-4xl font-oswald-bold text-black mb-6 font-bold'>
-                        <span className='block text-sky-300 font-leckerli'>Le cabinet</span>
+                        <span className='block text-[#997f6b] font-leckerli'>Le cabinet</span>
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
                         <div className="overflow-hidden rounded-2xl shadow-md">

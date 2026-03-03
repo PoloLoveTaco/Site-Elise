@@ -45,7 +45,7 @@ function HeaderBar() {
 
 					{/* TITRE */}
 					<Link to="/home" className="flex items-center gap-3">
-						<p className={`text-3xl text-sky-300 font-leckerli`}>
+						<p className={`text-3xl text-[#997f6b] font-leckerli`}>
 							Elise Durand Ergothérapeute
 						</p>
 					</Link>
@@ -57,7 +57,7 @@ function HeaderBar() {
 							{navItems.map((item) => (
 								<li key={item.label}>
 									<Link to={item.to}>
-										<p className={`font-oswald text-lg lg:text-lg py-2 px-3 ${normalizePath(location.pathname) === normalizePath(item.to) ? "text-sky-300" : ""}`}>
+										<p className={`font-oswald text-lg lg:text-lg py-2 px-3 ${normalizePath(location.pathname) === normalizePath(item.to) ? "text-[#997f6b]" : ""}`}>
 											{item.label}
 										</p>
 									</Link>
@@ -103,7 +103,7 @@ function HeaderBar() {
 						{navItems.map((item) => (
 							<li key={item.label}>
 								<Link to={item.to}>
-									<p className={`font-oswald text-lg py-2 px-3 ${normalizePath(location.pathname) === normalizePath(item.to) ? "text-sky-300" : ""}`}>
+									<p className={`font-oswald text-lg py-2 px-3 ${normalizePath(location.pathname) === normalizePath(item.to) ? "text-[#997f6b]" : ""}`}>
 										{item.label}
 									</p>
 								</Link>
