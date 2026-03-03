@@ -40,12 +40,12 @@ function HeaderBar() {
 			style={{ backgroundColor: bgColor, color: textColor }}
 			className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300`}
 		>
-			<div className="w-full px-3">
+			<div className="w-full px-3 py-3">
 				<div className="flex h-18 items-center justify-between">
 
 					{/* TITRE */}
 					<Link to="/home" className="flex items-center gap-3">
-						<p className={`text-[${textColor}] font-oswald-bold text-3xl`}>
+						<p className={`text-3xl text-sky-300 font-leckerli`}>
 							Elise Durand Ergothérapeute
 						</p>
 					</Link>
@@ -53,11 +53,11 @@ function HeaderBar() {
 
 					{/* NAVIGATION DESKTOP */}
 					<nav className="hidden md:flex items-center ml-auto">
-						<ul className="flex items-center gap-3">
+						<ul className="flex items-center gap-1">
 							{navItems.map((item) => (
 								<li key={item.label}>
 									<Link to={item.to}>
-										<p className={`font-oswald text-lg lg:text-xl py-2 px-3 ${normalizePath(location.pathname) === normalizePath(item.to) ? "text-sky-200" : ""}`}>
+										<p className={`font-oswald text-lg lg:text-lg py-2 px-3 ${normalizePath(location.pathname) === normalizePath(item.to) ? "text-sky-300" : ""}`}>
 											{item.label}
 										</p>
 									</Link>
@@ -75,7 +75,7 @@ function HeaderBar() {
 					>
 						{!isMenuOpen ? (
 							/* ICON BURGER */
-							<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="size-6" viewBox="0 0 24 24">
+							<svg xmlns="http://www.w3.org/2000/svg" fill={textColor} className="size-6" viewBox="0 0 24 24">
 								<path
 									fillRule="evenodd"
 									d="M3.75 5.25a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5H4.5a.75.75 0 0 1-.75-.75Zm0 6a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5H4.5a.75.75 0 0 1-.75-.75Zm0 6a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5H4.5a.75.75 0 0 1-.75-.75Z"
@@ -103,7 +103,7 @@ function HeaderBar() {
 						{navItems.map((item) => (
 							<li key={item.label}>
 								<Link to={item.to}>
-									<p className="font-oswald text-lg py-2 px-3">
+									<p className={`font-oswald text-lg py-2 px-3 ${normalizePath(location.pathname) === normalizePath(item.to) ? "text-sky-300" : ""}`}>
 										{item.label}
 									</p>
 								</Link>

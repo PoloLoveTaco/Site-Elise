@@ -11,7 +11,7 @@ function APropos() {
                 <div className="relative z-10 w-full max-w-6xl mx-auto px-6 py-16">
                     <div className="grid items-center gap-8 md:grid-cols-[1.2fr_0.8fr]">
                         <div className="h-full rounded-2xl shadow-sm p-6 md:p-10 border " style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
-                            <h1 className="text-2xl font-oswald-bold text-slate-900 uppercase font-bold">Présentation</h1>
+                            <h1 className="text-2xl uppercase font-bold text-sky-300 font-leckerli">Présentation</h1>
                             <div className="mt-4 space-y-4 text-lg leading-relaxed text-slate-700">
                                 <p className='text-justify'>
                                     Diplômée d’État en ergothérapie à l’IFE Paris Adere, j’accompagne les enfants et leurs
@@ -39,7 +39,7 @@ function APropos() {
                         </div>
                     </div>
                     <div className="mt-8 rounded-2xl shadow-sm p-6 md:p-10 border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
-                        <h2 className="text-2xl font-oswald-bold text-slate-900 uppercase font-bold">Formation</h2>
+                        <h2 className="text-2xl text-sky-300 font-leckerli uppercase font-bold">Formation</h2>
                         <div className="mt-4 space-y-4 text-lg leading-relaxed text-slate-700">
                             <p className='text-justify'>
                                 Tout au long de ma pratique, je réalise des formations afin d’enrichir mes compétences et

@@ -68,7 +68,7 @@ function Approches() {
                 <div className="absolute top-20 -right-10 size-40 rounded-full bg-sky-200/40 z-0" />
                 <div className="absolute bottom-0 left-1/3 size-24 rounded-full bg-orange-200/50 z-0" />
                 <div className="relative z-10 max-w-6xl mx-auto px-6 py-16">
-                    <h1 className="text-3xl md:text-4xl font-oswald-bold text-slate-900 font-bold">
+                    <h1 className="text-3xl md:text-4xl font-bold text-sky-300 font-leckerli">
                         Les différentes approches
                     </h1>
                     <p className="text-lg text-slate-700 mt-4 max-w-3xl">
@@ -100,7 +100,7 @@ function Approches() {
             </section>
 
             <section className="px-6 py-12 max-w-6xl mx-auto">
-                <h2 className="text-2xl font-oswald-bold text-slate-900 font-bold">{selected.title}</h2>
+                <h2 className="text-2xl font-bold text-sky-300 font-leckerli">{selected.title}</h2>
                 <p className="text-lg text-slate-700 mt-3 text-justify">{selected.content}</p>
             </section>
         </div>

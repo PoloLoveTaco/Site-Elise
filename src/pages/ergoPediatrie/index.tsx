@@ -42,7 +42,7 @@ function ErgoPediatrie() {
                 <div className="absolute -left-10 top-10 size-32 rounded-full bg-emerald-100/60 z-0" />
                 <div className="absolute right-6 bottom-2 size-24 rounded-full bg-sky-100/60 z-0" />
                 <div className="relative z-10">
-                <h2 className="text-2xl md:text-3xl font-oswald-bold text-slate-900 mb-4 font-bold">
+                <h2 className="text-2xl md:text-3xl text-sky-300 font-leckerli mb-4 font-bold">
                     Quand consulter ?
                 </h2>
                 <p className="text-lg leading-relaxed text-slate-700 mb-6 max-w-3xl text-justify">
@@ -52,7 +52,7 @@ function ErgoPediatrie() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div className="rounded-2xl p-6 shadow-sm border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
-                        <h3 className="text-xl font-oswald-bold text-slate-900 mb-3">À la maison</h3>
+                        <h3 className="text-xl font-oswald-bold text-slate-700 mb-3 font-leckerli">À la maison</h3>
                         <ul className="list-disc pl-5 space-y-2 text-slate-700">
                             <li>Difficultés lors de l’habillage (lacets, boutons de vêtements…)</li>
                             <li>Difficultés pour prendre sa douche</li>
@@ -64,7 +64,7 @@ function ErgoPediatrie() {
                     </div>
 
                     <div className="rounded-2xl p-6 shadow-sm border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
-                        <h3 className="text-xl font-oswald-bold text-slate-900 mb-3">À l’école</h3>
+                        <h3 className="text-xl font-oswald-bold text-slate-700 mb-3 font-leckerli">À l’école</h3>
                         <ul className="list-disc pl-5 space-y-2 text-slate-700">
                             <li>Difficultés lors de la tâche graphique (reproduire des lettres ou des formes etc...)</li>
                             <li>Difficultés pour tenir son crayon</li>
@@ -76,7 +76,7 @@ function ErgoPediatrie() {
                     </div>
 
                     <div className="rounded-2xl p-6 shadow-sm border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
-                        <h3 className="text-xl font-oswald-bold text-slate-900 mb-3">Sensoriel</h3>
+                        <h3 className="text-xl font-oswald-bold text-slate-700 mb-3 font-leckerli">Sensoriel</h3>
                         <ul className="list-disc pl-5 space-y-2 text-slate-700">
                             <li>Hypo ou hypersensibilité dans un (ou plusieurs) champ(s) sensoriel(s)</li>
                             <li>Comportements de retrait, de frustration ou d’agressivité inhabituels</li>
@@ -94,7 +94,7 @@ function ErgoPediatrie() {
 
             <section className="py-12">
                 <div className="max-w-6xl mx-auto px-6">
-                    <h2 className="text-2xl md:text-3xl font-oswald-bold text-slate-900 font-bold">
+                    <h2 className="text-2xl md:text-3xl text-sky-300 font-leckerli font-bold">
                         L’ergothérapie en pédiatrie, pour qui ?
                     </h2>
                 </div>
