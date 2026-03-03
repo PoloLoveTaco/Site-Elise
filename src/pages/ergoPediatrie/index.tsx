@@ -42,7 +42,7 @@ function ErgoPediatrie() {
                 <div className="absolute -left-10 top-10 size-32 rounded-full bg-emerald-100/60 z-0" />
                 <div className="absolute right-6 bottom-2 size-24 rounded-full bg-sky-100/60 z-0" />
                 <div className="relative z-10">
-                <h2 className="text-2xl md:text-3xl text-sky-300 font-leckerli mb-4 font-bold">
+                <h2 className="text-2xl md:text-3xl text-[#997f6b] font-leckerli mb-4 font-bold">
                     Quand consulter ?
                 </h2>
                 <p className="text-lg leading-relaxed text-slate-700 mb-6 max-w-3xl text-justify">
@@ -94,7 +94,7 @@ function ErgoPediatrie() {
 
             <section className="py-12">
                 <div className="max-w-6xl mx-auto px-6">
-                    <h2 className="text-2xl md:text-3xl text-sky-300 font-leckerli font-bold">
+                    <h2 className="text-2xl md:text-3xl text-[#997f6b] font-leckerli font-bold">
                         L’ergothérapie en pédiatrie, pour qui ?
                     </h2>
                 </div>

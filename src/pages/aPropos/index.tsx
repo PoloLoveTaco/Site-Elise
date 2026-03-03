@@ -11,7 +11,7 @@ function APropos() {
                 <div className="relative z-10 w-full max-w-6xl mx-auto px-6 py-16">
                     <div className="grid items-center gap-8 md:grid-cols-[1.2fr_0.8fr]">
                         <div className="h-full rounded-2xl shadow-sm p-6 md:p-10 border " style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
-                            <h1 className="text-2xl uppercase font-bold text-sky-300 font-leckerli">Présentation</h1>
+                            <h1 className="text-2xl font-bold text-[#997f6b] font-leckerli">Présentation</h1>
                             <div className="mt-4 space-y-4 text-lg leading-relaxed text-slate-700">
                                 <p className='text-justify'>
                                     Diplômée d’État en ergothérapie à l’IFE Paris Adere, j’accompagne les enfants et leurs
@@ -39,7 +39,7 @@ function APropos() {
                         </div>
                     </div>
                     <div className="mt-8 rounded-2xl shadow-sm p-6 md:p-10 border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
-                        <h2 className="text-2xl text-sky-300 font-leckerli uppercase font-bold">Formation</h2>
+                        <h2 className="text-2xl text-[#997f6b] font-leckerli font-bold">Formation</h2>
                         <div className="mt-4 space-y-4 text-lg leading-relaxed text-slate-700">
                             <p className='text-justify'>
                                 Tout au long de ma pratique, je réalise des formations afin d’enrichir mes compétences et
@@ -48,7 +48,7 @@ function APropos() {
                             </p>
                             <div className="grid gap-4 md:grid-cols-2">
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
-                                    <h3 className="font-oswald-bold text-slate-900 uppercase">
+                                    <h3 className="font-oswald-bold text-slate-900 font-leckerli">
                                         Intégration sensorielle
                                     </h3>
                                     <p className="mt-2 text-slate-700 text-justify">
@@ -58,7 +58,7 @@ function APropos() {
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
-                                    <h3 className="font-oswald-bold text-slate-900 uppercase">
+                                    <h3 className="font-oswald-bold text-slate-900 font-leckerli">
                                         Troubles de l’alimentation
                                     </h3>
                                     <p className="mt-2 text-slate-700 text-justify">
@@ -66,7 +66,7 @@ function APropos() {
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
-                                    <h3 className="font-oswald-bold text-slate-900 uppercase">
+                                    <h3 className="font-oswald-bold text-slate-900 font-leckerli">
                                         Trouble du spectre de l’autisme (TSA)
                                     </h3>
                                     <p className="mt-2 text-slate-700 text-justify">
@@ -75,7 +75,7 @@ function APropos() {
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
-                                    <h3 className="font-oswald-bold text-slate-900 uppercase">
+                                    <h3 className="font-oswald-bold text-slate-900 font-leckerli">
                                         Méthode CO-OP
                                     </h3>
                                     <p className="mt-2 text-slate-700 text-justify">
@@ -85,7 +85,7 @@ function APropos() {
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
-                                    <h3 className="font-oswald-bold text-slate-900 uppercase">
+                                    <h3 className="font-oswald-bold text-slate-900 font-leckerli">
                                         MCRO
                                     </h3>
                                     <p className="mt-2 text-slate-700 text-justify">
@@ -95,7 +95,7 @@ function APropos() {
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
-                                    <h3 className="font-oswald-bold text-slate-900 uppercase">
+                                    <h3 className="font-oswald-bold text-slate-900 font-leckerli">
                                         Motricité fine
                                     </h3>
                                     <p className="mt-2 text-slate-700 text-justify">
@@ -104,7 +104,7 @@ function APropos() {
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
-                                    <h3 className="font-oswald-bold text-slate-900 uppercase">
+                                    <h3 className="font-oswald-bold text-slate-900 font-leckerli">
                                         Développement de l’enfant (0 à 6 ans)
                                     </h3>
                                     <p className="mt-2 text-slate-700 text-justify">
@@ -114,7 +114,7 @@ function APropos() {
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className=" rounded-xl border p-4 shadow-sm">
-                                    <h3 className="font-oswald-bold text-slate-900 uppercase">
+                                    <h3 className="font-oswald-bold text-slate-900 font-leckerli">
                                         Réflexes archaïques
                                     </h3>
                                     <p className="mt-2 text-slate-700 text-justify">
@@ -124,7 +124,7 @@ function APropos() {
                                     </p>
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className="rounded-xl border p-4 shadow-sm md:col-span-2">
-                                    <h3 className="font-oswald-bold text-slate-900 uppercase">
+                                    <h3 className="font-oswald-bold text-slate-900 font-leckerli">
                                         Le trouble du calcul
                                     </h3>
                                     <p className="mt-2 text-slate-700 text-justify">

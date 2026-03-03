@@ -25,7 +25,7 @@ function Interventions() {
                 <div className="absolute top-10 -right-10 size-25 rounded-full bg-sky-200/40 z-0" />
                 <div className="absolute bottom-0 left-1/3 size-24 rounded-full bg-orange-200/50 z-0" />
                 <div className="relative z-10 max-w-6xl mx-auto px-6 pt-16">
-                    <h1 className="text-2xl md:text-4xl text-sky-300 font-leckerli font-bold">
+                    <h1 className="text-2xl md:text-4xl text-[#997f6b] font-leckerli font-bold">
                         Bilans d’évaluation
                     </h1>
                     <p className="text-lg text-slate-700 mt-4 text-justify">
@@ -41,8 +41,8 @@ function Interventions() {
 
             <section className="px-6 py-6 max-w-6xl mx-auto">
                 <div className="rounded-2xl p-6 shadow-sm border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
-                    <h2 className="text-2xl font-oswald-bold text-slate-700 mb-3 font-leckerli">
-                        L’ergothérapeute observe et analyse
+                    <h2 className="font-oswald-bold text-slate-700 mb-3">
+                        L’ergothérapeute observe et analyse :
                     </h2>
                     <ul className="list-disc pl-5 space-y-2 text-slate-700">
                         <li>Les capacités et les difficultés de l’enfant.</li>
@@ -68,8 +68,8 @@ function Interventions() {
 
             <section className="px-6 py-6 max-w-6xl mx-auto">
                 <div className="rounded-2xl p-6 shadow-sm border" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
-                    <h2 className="text-2xl font-oswald-bold text-slate-700 mb-3 font-leckerli">
-                        Le bilan peut avoir plusieurs objectifs
+                    <h2 className="font-oswald-bold text-slate-700 mb-3">
+                        Le bilan peut avoir plusieurs objectifs :
                     </h2>
                     <ul className="list-disc pl-5 space-y-2 text-slate-700">
                         <li>Aider à la recherche d’un diagnostic médical.</li>
@@ -100,7 +100,7 @@ function Interventions() {
                 <div className="absolute -top-0 -right-12 size-40 rounded-full bg-emerald-100/60 z-0" />
                 <div className="absolute bottom-0 left-10 size-28 rounded-full bg-sky-100/60 z-0" />
                 <div className="relative z-10 max-w-6xl mx-auto px-6 py-12">
-                    <h2 className="text-2xl md:text-4xl text-sky-300 font-leckerli font-bold">
+                    <h2 className="text-2xl md:text-4xl text-[#997f6b] font-leckerli font-bold">
                         Séances au cabinet
                     </h2>
                     <p className="text-lg text-slate-700 mt-4 text-justify">
@@ -109,7 +109,7 @@ function Interventions() {
                         quelques séances ciblées ou d’un suivi plus régulier, par exemple sur une année scolaire.
                     </p>
                     <div className="rounded-2xl p-6 shadow-sm border mt-6" style={{ backgroundColor: color.secondaireO1, borderColor: color.secondaireO1}}>
-                        <h2 className="text-2xl font-oswald-bold text-slate-700 mb-3 font-leckerli">
+                        <h2 className="font-oswald-bold text-slate-700 mb-3">
                             Chaque séance est personnalisée et peut avoir plusieurs objectifs :
                         </h2>
                         <ul className="list-disc pl-5 space-y-2 text-slate-700">
@@ -127,11 +127,11 @@ function Interventions() {
                                 la maison.
                             </li>
                         </ul>
-                        <p className="text-lg text-slate-700 pt-4">
-                            L’ergothérapeute travaille en étroite collaboration avec l’enfant, sa famille, l’école,
-                            et les professionnels de santé.
-                        </p>
                     </div>
+                    <p className="text-lg text-slate-700 pt-4">
+                        L’ergothérapeute travaille en étroite collaboration avec l’enfant, sa famille, l’école,
+                        et les professionnels de santé.
+                    </p>
                 </div>
             </section>
 
@@ -139,7 +139,7 @@ function Interventions() {
                 <div className="absolute -left-12 top-6 size-36 rounded-full bg-orange-200/50 z-0" />
                 <div className="absolute right-8 bottom-0 size-24 rounded-full bg-emerald-100/60 z-0" />
                 <div className="relative z-10 max-w-6xl mx-auto px-6 py-12">
-                    <h2 className="text-2xl md:text-4xl text-sky-300 font-leckerli font-bold">
+                    <h2 className="text-2xl md:text-4xl text-[#997f6b] font-leckerli font-bold">
                         Séances à domicile ou dans les écoles
                     </h2>
                     <p className="text-lg text-slate-700 mt-4 text-justify">
