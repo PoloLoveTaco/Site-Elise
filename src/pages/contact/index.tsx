@@ -31,7 +31,7 @@ function Contact() {
                             </div>
                         </div>
                         <div className="mt-8">
-                            <p className="text-lg text-slate-700">
+                            <p className="text-lg text-slate-700 text-justify">
                                 Pour toute demande de bilan en ergothérapie, vous pouvez vous inscrire sur la liste
                                 d'attente en suivant le lien ci-dessous :
                             </p>

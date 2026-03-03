@@ -101,7 +101,7 @@ function Approches() {
 
             <section className="px-6 py-12 max-w-6xl mx-auto">
                 <h2 className="text-2xl font-oswald-bold text-slate-900 font-bold">{selected.title}</h2>
-                <p className="text-lg text-slate-700 mt-3">{selected.content}</p>
+                <p className="text-lg text-slate-700 mt-3 text-justify">{selected.content}</p>
             </section>
         </div>
     )

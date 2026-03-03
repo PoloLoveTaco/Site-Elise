@@ -27,7 +27,7 @@ function ErgoPediatrie() {
 
             <section className="px-6 py-12 max-w-6xl mx-auto">
                 <div className="rounded-2xl shadow-sm p-6 border border-white/60" style={{ backgroundColor: color.secondaireO1}}>
-                    <p className="text-lg leading-relaxed text-slate-700">
+                    <p className="text-lg leading-relaxed text-slate-700 text-justify">
                         « L’ergothérapie est une profession de santé paramédicale visant à prévenir, réduire
                         ou supprimer les situations de handicap des enfants de tout âge. Elle se base sur des
                         activités significatives visant à préserver et développer leur indépendance et leur
@@ -45,7 +45,7 @@ function ErgoPediatrie() {
                 <h2 className="text-2xl md:text-3xl font-oswald-bold text-slate-900 mb-4 font-bold">
                     Quand consulter ?
                 </h2>
-                <p className="text-lg leading-relaxed text-slate-700 mb-6 max-w-3xl">
+                <p className="text-lg leading-relaxed text-slate-700 mb-6 max-w-3xl text-justify">
                     Vous pouvez contacter un ergothérapeute lorsque votre enfant rencontre une ou plusieurs
                     difficultés dans ses activités de vie quotidienne et/ou scolaires.
                 </p>

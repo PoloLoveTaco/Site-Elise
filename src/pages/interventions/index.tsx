@@ -28,11 +28,11 @@ function Interventions() {
                     <h1 className="text-2xl md:text-4xl font-oswald-bold text-slate-900 font-bold">
                         Bilans d’évaluation
                     </h1>
-                    <p className="text-lg text-slate-700 mt-4">
+                    <p className="text-lg text-slate-700 mt-4 text-justify">
                         Le bilan en ergothérapie en pédiatrie est réalisé sur prescription médicale et dure en
                         moyenne 2 à 3 heures.
                     </p>
-                    <p className="text-lg text-slate-700">
+                    <p className="text-lg text-slate-700 text-justify">
                         Il s’agit d’une évaluation complète qui permet de mieux comprendre le fonctionnement
                         de l’enfant dans son quotidien.
                     </p>
@@ -56,7 +56,7 @@ function Interventions() {
                 <div className="absolute -left-30 top-10 size-32 rounded-full bg-emerald-100/60 z-0" />
                 <div className="absolute right-6 bottom-2 size-24 rounded-full bg-sky-100/60 z-0" />
                 <div className="relative z-10 space-y-6">
-                    <p className="text-lg leading-relaxed text-slate-700">
+                    <p className="text-lg leading-relaxed text-slate-700 text-justify">
                         À partir de cette évaluation, l’ergothérapeute définit avec l’enfant et sa famille
                         les occupations prioritaires à travailler (par exemple : l’écriture, l’autonomie dans
                         l’habillage, la participation aux repas, l’organisation scolaire, etc.).
@@ -87,7 +87,7 @@ function Interventions() {
 
             <section className="relative px-6 pb-12 max-w-6xl mx-auto">
                 <div>
-                    <p className="text-lg leading-relaxed text-slate-700">
+                    <p className="text-lg leading-relaxed text-slate-700 text-justify">
                         À l’issue du bilan, un compte rendu détaillé est remis à la famille et peut être
                         transmis aux professionnels concernés (médecins, enseignants, orthophonistes,
                         psychomotriciens, etc.), afin de favoriser une prise en charge cohérente et adaptée
@@ -103,7 +103,7 @@ function Interventions() {
                     <h2 className="text-2xl md:text-4xl font-oswald-bold text-slate-900 font-bold">
                         Séances au cabinet
                     </h2>
-                    <p className="text-lg text-slate-700 mt-4">
+                    <p className="text-lg text-slate-700 mt-4 text-justify">
                         Les séances d’ergothérapie se déroulent au cabinet, à raison de 45 minutes par semaine.
                         La durée de l’accompagnement varie selon les besoins de l’enfant : il peut s’agir de
                         quelques séances ciblées ou d’un suivi plus régulier, par exemple sur une année scolaire.
@@ -142,7 +142,7 @@ function Interventions() {
                     <h2 className="text-2xl md:text-4xl font-oswald-bold text-slate-900 font-bold">
                         Séances à domicile ou dans les écoles
                     </h2>
-                    <p className="text-lg text-slate-700 mt-4">
+                    <p className="text-lg text-slate-700 mt-4 text-justify">
                         En complément des séances réalisées au cabinet, des interventions ponctuelles à domicile
                         et/ou à l’école peuvent être proposées. Elles permettent de transférer les acquis
                         travaillés lors des séances dans les différents environnements de l’enfant et de
