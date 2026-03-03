@@ -29,6 +29,12 @@ function HeaderBar() {
 	const bgColor   = isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? color.primary1 : "transparent";
 	const textColor = isScrolled || forceSolidHeaderContact || forceSolidHeaderPropos ? color.primary2 : color.primary1;
 
+	const normalizePath = (p: string) => {
+		const path = (p || "").toLowerCase();
+		if (path === "" || path === "/" || path === "/home") return "/home";
+		return path;
+	};
+
 	return (
 		<header
 			style={{ backgroundColor: bgColor, color: textColor }}
@@ -51,7 +57,7 @@ function HeaderBar() {
 							{navItems.map((item) => (
 								<li key={item.label}>
 									<Link to={item.to}>
-										<p className={`font-oswald text-lg lg:text-xl py-2 px-3 ${location.pathname === item.to ? "text-sky-200" : ""}`}>
+										<p className={`font-oswald text-lg lg:text-xl py-2 px-3 ${normalizePath(location.pathname) === normalizePath(item.to) ? "text-sky-200" : ""}`}>
 											{item.label}
 										</p>
 									</Link>
