@@ -28,11 +28,12 @@ function ErgoPediatrie() {
             <section className="px-6 py-12 max-w-6xl mx-auto">
                 <div className="rounded-2xl shadow-sm p-6 border border-white/60" style={{ backgroundColor: color.secondaireO1}}>
                     <p className="text-lg leading-relaxed text-slate-700 text-justify">
-                        « L’ergothérapie est une profession de santé paramédicale visant à prévenir, réduire
-                        ou supprimer les situations de handicap des enfants de tout âge. Elle se base sur des
-                        activités significatives visant à préserver et développer leur indépendance et leur
-                        autonomie au quotidien, à l’école et dans leurs loisirs. Elle propose une approche
-                        globale de l’enfant et se pratique au travers de la rééducation, de la réadaptation,
+                        « L’ergothérapie est une <span className="font-semibold">profession de santé paramédicale visant à prévenir, réduire
+                        ou supprimer les situations de handicap des enfants de tout âge</span>. Elle se base sur des
+                        <span className="font-semibold"> activités significatives</span> visant à
+                        <span className="font-semibold"> préserver et développer leur indépendance et leur autonomie </span>
+                        au quotidien, à l’école et dans leurs loisirs. Elle propose une 
+                        <span className="font-semibold"> approche globale de l’enfant</span> et se pratique au travers de la rééducation, de la réadaptation,
                         par et pour l’activité ». (ANFE : association nationale française des ergothérapeutes)
                     </p>
                 </div>
@@ -45,7 +46,7 @@ function ErgoPediatrie() {
                 <h2 className="text-2xl md:text-3xl text-[#997f6b] font-leckerli mb-4 font-bold">
                     Quand consulter ?
                 </h2>
-                <p className="text-lg leading-relaxed text-slate-700 mb-6 max-w-3xl text-justify">
+                <p className="text-lg leading-relaxed text-slate-700 mb-6 text-justify">
                     Vous pouvez contacter un ergothérapeute lorsque votre enfant rencontre une ou plusieurs
                     difficultés dans ses activités de vie quotidienne et/ou scolaires.
                 </p>
@@ -104,31 +105,31 @@ function ErgoPediatrie() {
                             Troubles spécifiques des apprentissages (dysgraphie, dyslexie...)
                         </div>
 
-                        <div className="bg-emerald-100 text-emerald-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                        <div className="p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles développementaux de la coordination (TDC)
                         </div>
 
-                        <div className="bg-sky-100 text-sky-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                         <div className="bg-orange-100 text-orange-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles du déficit de l’attention avec ou sans hyperactivité (TDA/H)
                         </div>
 
-                        <div className="bg-fuchsia-100 text-fuchsia-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                        <div className="p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles du Spectre Autistique (TSA)
                         </div>
 
-                        <div className="bg-green-100 text-green-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                        <div className="p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles neurologiques (paralysie cérébrale, traumatisme crânien, syndrome cérébelleux...)
                         </div>
 
-                        <div className="bg-amber-100 text-amber-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                         <div className="bg-orange-100 text-orange-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles moteurs
                         </div>
 
-                        <div className="bg-teal-100 text-teal-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                        <div className="text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Retards de développement
                         </div>
 
-                        <div className="bg-indigo-100 text-indigo-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                         <div className="bg-orange-100 text-orange-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Déficience intellectuelle
                         </div>
                     </div>
