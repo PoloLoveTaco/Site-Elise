@@ -36,10 +36,9 @@ function LocationCard() {
                     </div>
 
                     <p className="text-base leading-relaxed text-justify">
-                        Le cabinet d’ergothérapie est situé à 10 minutes à pied de la gare <span className="font-semibold">SNCF</span>,
-                        il est accessible par <span className="font-semibold">bus (7B, 7 et 6)</span>. 
-                        Il dispose d’une salle d’attente et des toilettes avec 
-                        <span className="font-semibold"> accès handicapé</span>.
+                        Le cabinet d’ergothérapie est situé à 10 minutes à pied de la gare SNCF,
+                        il est accessible par bus (7B, 7 et 6). 
+                        Il dispose d’une salle d’attente et des toilettes avec accès handicapé.
                     </p>
                 </div>
             </div>

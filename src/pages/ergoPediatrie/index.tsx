@@ -104,31 +104,31 @@ function ErgoPediatrie() {
                             Troubles spécifiques des apprentissages (dysgraphie, dyslexie...)
                         </div>
 
-                        <div className="bg-emerald-100 text-emerald-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                        <div className="p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles développementaux de la coordination (TDC)
                         </div>
 
-                        <div className="bg-sky-100 text-sky-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                         <div className="bg-orange-100 text-orange-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles du déficit de l’attention avec ou sans hyperactivité (TDA/H)
                         </div>
 
-                        <div className="bg-fuchsia-100 text-fuchsia-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                        <div className="p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles du Spectre Autistique (TSA)
                         </div>
 
-                        <div className="bg-green-100 text-green-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                        <div className="p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles neurologiques (paralysie cérébrale, traumatisme crânien, syndrome cérébelleux...)
                         </div>
 
-                        <div className="bg-amber-100 text-amber-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                         <div className="bg-orange-100 text-orange-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Troubles moteurs
                         </div>
 
-                        <div className="bg-teal-100 text-teal-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                        <div className="text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Retards de développement
                         </div>
 
-                        <div className="bg-indigo-100 text-indigo-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
+                         <div className="bg-orange-100 text-orange-900 p-6 text-center text-lg font-oswald-bold rounded-xl shadow-sm flex items-center justify-center">
                             Déficience intellectuelle
                         </div>
                     </div>

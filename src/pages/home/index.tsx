@@ -34,12 +34,12 @@ function Home() {
                         <span className='block text-[#997f6b] font-leckerli'>Qu’est-ce que l’ergothérapie ?</span>
                     </h2>
                     <p className="text-lg leading-relaxed text-slate-700 text-justify">
-                        « L’ergothérapeute (Occupational Therapist) est un professionnel de santé, exerçant dans les champs sanitaire, médico-social et social.
-                        Collaborant avec de nombreux professionnels (médecins, auxiliaires médicaux, travailleurs sociaux, acteurs de l’enseignement et de la formation,
+                        « <span className="font-semibold">L’ergothérapeute</span> (Occupational Therapist) est un <span className="font-semibold">professionnel</span> de santé, exerçant dans les champs sanitaire, médico-social et social.
+                        <span className="font-semibold">Collaborant avec de nombreux professionnels</span> (médecins, auxiliaires médicaux, travailleurs sociaux, acteurs de l’enseignement et de la formation,
                         techniciens de l’habitat…), il est un intervenant incontournable dans le processus d’adaptation, de réadaptation et d’intégration sociale des personnes.
-                        Spécialiste du rapport entre l’activité (ou occupation en lien avec la terminologie internationale désignant l’ergothérapie) et la santé,
-                        il mène des actions d’une part pour prévenir et modifier les activités délétères pour la santé,
-                        et d’autre part pour assurer l’accès des individus aux occupations qu’ils veulent ou doivent faire et
+                        <span className="font-semibold">Spécialiste du rapport entre l’activité</span> (ou occupation en lien avec la terminologie internationale désignant l’ergothérapie) et 
+                        <span className="font-semibold"> la santé, il mène des actions d’une part pour prévenir et modifier les activités délétères</span> pour la santé,
+                        et d’autre part pour <span className="font-semibold">assurer l’accès des individus aux occupations qu’ils veulent ou doivent faire</span> et
                         rendre possible leur accomplissement de façon sécurisée, autonome, indépendante et efficace. »
                         (ANFE : association nationale française des ergothérapeutes)
                     </p>
