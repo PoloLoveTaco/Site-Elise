@@ -109,7 +109,7 @@ function APropos() {
                                     </h3>
                                     <p className="mt-2 text-slate-700 text-justify">
                                         Acquisition des repères essentiels sur les étapes clés du développement moteur,
-                                        cognitif, émotionnel et social afin d’identifier précocement d’éventuelles
+                                        cognitif, émotionnel et social de l'enfant, afin d’identifier précocement d’éventuelles
                                         difficultés et d’adapter les interventions.
                                     </p>
                                 </div>
@@ -125,10 +125,10 @@ function APropos() {
                                 </div>
                                 <div style={{ backgroundColor: color.primary1, borderColor: color.primary1 }} className="rounded-xl border p-4 shadow-sm md:col-span-2">
                                     <h3 className="font-oswald-bold text-slate-900 font-leckerli">
-                                        Le trouble du calcul
+                                        Les troubles du calcul
                                     </h3>
                                     <p className="mt-2 text-slate-700 text-justify">
-                                        L’accompagnement des troubles du calcul vise à améliorer les apprentissages
+                                        L’accompagnement des troubles du calcul visant à améliorer les apprentissages
                                         mathématiques aux situations de la vie quotidienne, comme gérer son argent, lire
                                         l’heure, mesurer des ingrédients.
                                     </p>
