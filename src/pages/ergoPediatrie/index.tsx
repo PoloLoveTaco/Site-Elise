@@ -28,11 +28,12 @@ function ErgoPediatrie() {
             <section className="px-6 py-12 max-w-6xl mx-auto">
                 <div className="rounded-2xl shadow-sm p-6 border border-white/60" style={{ backgroundColor: color.secondaireO1}}>
                     <p className="text-lg leading-relaxed text-slate-700 text-justify">
-                        « L’ergothérapie est une profession de santé paramédicale visant à prévenir, réduire
-                        ou supprimer les situations de handicap des enfants de tout âge. Elle se base sur des
-                        activités significatives visant à préserver et développer leur indépendance et leur
-                        autonomie au quotidien, à l’école et dans leurs loisirs. Elle propose une approche
-                        globale de l’enfant et se pratique au travers de la rééducation, de la réadaptation,
+                        « L’ergothérapie est une <span className="font-semibold">profession de santé paramédicale visant à prévenir, réduire
+                        ou supprimer les situations de handicap des enfants de tout âge</span>. Elle se base sur des
+                        <span className="font-semibold"> activités significatives</span> visant à
+                        <span className="font-semibold"> préserver et développer leur indépendance et leur autonomie </span>
+                        au quotidien, à l’école et dans leurs loisirs. Elle propose une 
+                        <span className="font-semibold"> approche globale de l’enfant</span> et se pratique au travers de la rééducation, de la réadaptation,
                         par et pour l’activité ». (ANFE : association nationale française des ergothérapeutes)
                     </p>
                 </div>
@@ -45,7 +46,7 @@ function ErgoPediatrie() {
                 <h2 className="text-2xl md:text-3xl text-[#997f6b] font-leckerli mb-4 font-bold">
                     Quand consulter ?
                 </h2>
-                <p className="text-lg leading-relaxed text-slate-700 mb-6 max-w-3xl text-justify">
+                <p className="text-lg leading-relaxed text-slate-700 mb-6 text-justify">
                     Vous pouvez contacter un ergothérapeute lorsque votre enfant rencontre une ou plusieurs
                     difficultés dans ses activités de vie quotidienne et/ou scolaires.
                 </p>
