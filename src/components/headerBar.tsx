@@ -70,7 +70,7 @@ function HeaderBar() {
 							</svg>
 						) : (
 							/* ICON CLOSE */
-							<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="size-6" viewBox="0 0 24 24">
+							<svg xmlns="http://www.w3.org/2000/svg" fill={color.primary2} className="size-6" viewBox="0 0 24 24">
 								<path
 									fillRule="evenodd"
 									d="M6.225 4.811a.75.75 0 0 1 1.06 0L12 9.525l4.715-4.714a.75.75 0 1 1 1.06 1.06L13.06 10.586l4.715 4.714a.75.75 0 1 1-1.06 1.06L12 11.646l-4.715 4.714a.75.75 0 0 1-1.06-1.06l4.714-4.714-4.714-4.715a.75.75 0 0 1 0-1.06Z"
@@ -88,7 +88,7 @@ function HeaderBar() {
 					<ul className="space-y-1">
 						{navItems.map((item) => (
 							<li key={item.label}>
-								<Link to={item.to}>
+								<Link to={item.to} onClick={() => setIsMenuOpen(false)}>
 									<p className={`font-oswald text-lg py-2 px-3 ${normalizePath(location.pathname) === normalizePath(item.to) ? "text-[#997f6b]" : ""}`}>
 										{item.label}
 									</p>
