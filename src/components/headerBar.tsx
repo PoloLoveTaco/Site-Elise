@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom"
 import { useState } from "react"
 import color from '../assets/styles/color';
+import logo from '../assets/logo.png';
 
 const navItems = [
 	{ label: "Accueil", to: "/home" },
@@ -31,9 +32,7 @@ function HeaderBar() {
 
 					{/* TITRE */}
 					<Link to="/home" className="flex items-center gap-3">
-						<p className={`text-3xl text-[#997f6b] font-leckerli`}>
-							Elise Durand Ergothérapeute
-						</p>
+						<img src={logo} alt="Elise Durand Ergothérapeute" className="h-20 w-auto" />
 					</Link>
 
 
