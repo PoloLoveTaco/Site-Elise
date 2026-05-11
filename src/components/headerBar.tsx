@@ -33,6 +33,9 @@ function HeaderBar() {
 					{/* TITRE */}
 					<Link to="/home" className="flex items-center gap-3">
 						<img src={logo} alt="Elise Durand Ergothérapeute" className="h-20 w-auto" />
+						<p className={`text-3xl text-[#997f6b] font-leckerli`}>
+							Elise Durand Ergothérapeute
+						</p>
 					</Link>
 
 
