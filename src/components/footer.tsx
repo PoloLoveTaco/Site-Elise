@@ -21,9 +21,9 @@ export default function Footer() {
 					<div>
 						<h3 className="text-sm uppercase tracking-wide font-semibold mb-2">Contact</h3>
 						<ul className="space-y-1 text-sm opacity-90">
-							<li>tel: 06.74.84.39.73</li>
+							<li>tel: 06.74.84.39.72</li>
 							<li>email: elisedurand.ergo@gmail.com</li>
-							<li>du lundi au vendredi, 8h a 18h30</li>
+							<li>du mardi au vendredi, 8h30 a 17h30</li>
 						</ul>
 					</div>
 				</div>
