@@ -12,7 +12,7 @@ function Contact() {
                         <div className="grid gap-6 text-lg leading-relaxed text-slate-700 md:grid-cols-2">
                             <div>
                                 <p className="text-lg font-leckerli text-slate-900">Téléphone</p>
-                                <p className="mt-2 text-2xl text-slate-900">06.74.84.39.73</p>
+                                <p className="mt-2 text-2xl text-slate-900">06.74.84.39.72</p>
                             </div>
                             <div>
                                 <p className="text-lg font-leckerli text-slate-900">Mail</p>
@@ -26,8 +26,8 @@ function Contact() {
                             </div>
                             <div>
                                 <p className="text-lg font-leckerli text-slate-900">Horaires</p>
-                                <p className="mt-2 text-xl">Du lundi au vendredi</p>
-                                <p className="text-xl">de 8h à 18h30</p>
+                                <p className="mt-2 text-xl">Du mardi au vendredi</p>
+                                <p className="text-xl">de 8h30 à 17h30</p>
                             </div>
                         </div>
                         <div className="mt-8">
